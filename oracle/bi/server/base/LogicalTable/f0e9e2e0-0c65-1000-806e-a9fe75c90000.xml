@@ -9,8 +9,30 @@
 <LogicalColumn mdsid="mf0e9e2e6-0c65-1000-806e-a9fe75c90000" name="TIME_ID" isWriteable="false">
 </LogicalColumn>
 <LogicalColumn mdsid="mf0e9e2e7-0c65-1000-806e-a9fe75c90000" name="UNIT_COST" isWriteable="false">
+<MeasureDefn mdsid="m1f519dc0-0c66-1000-806e-a9fe75c90000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m1f519dc1-0c66-1000-806e-a9fe75c90000" name="AggRule_2050:6131363275165" isDefault="true">
+<Expr mdsid="m00000001-01f4-0000-97d3-159300000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("SH"."COSTS"."UNIT_COST")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-97d3-159300000000-mf0e9e2e7-0c65-1000-806e-a9fe75c90000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/f0e9e2e0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2e7-0c65-1000-806e-a9fe75c90000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
 </LogicalColumn>
 <LogicalColumn mdsid="mf0e9e2e8-0c65-1000-806e-a9fe75c90000" name="UNIT_PRICE" isWriteable="false">
+<MeasureDefn mdsid="m1f523a00-0c66-1000-806e-a9fe75c90000" name="Measure" isCommutative="false">
+<AggrRule mdsid="m1f523a01-0c66-1000-806e-a9fe75c90000" name="AggRule_2050:6151363275169" isDefault="true">
+<Expr mdsid="m00000002-01f4-0000-d9f2-6c5800000000" name="Expr">
+<ExprText><![CDATA[ AVG("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ AVG("SH"."COSTS"."UNIT_PRICE")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-d9f2-6c5800000000-mf0e9e2e8-0c65-1000-806e-a9fe75c90000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/f0e9e2e0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2e8-0c65-1000-806e-a9fe75c90000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
 </LogicalColumn>
 <RefTableSources>
 <RefLogicalTableSource refId="mf0e9e2e0-0c65-1000-806e-a9fe75c90000-mf0e9e2e2-0c65-1000-806e-a9fe75c90000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/f0e9e2e2-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2e2-0c65-1000-806e-a9fe75c90000"/>
