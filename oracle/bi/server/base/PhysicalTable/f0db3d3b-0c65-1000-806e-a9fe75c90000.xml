@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mf0db3d3b-0c65-1000-806e-a9fe75c90000" name="SALES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/f0db3cd1-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd1-0c65-1000-806e-a9fe75c90000">
+<PhysicalColumn mdsid="mf0db3d3c-0c65-1000-806e-a9fe75c90000" name="AMOUNT_SOLD" dataType="DOUBLE" scale="2" precision="10" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d3d-0c65-1000-806e-a9fe75c90000" name="CHANNEL_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d3e-0c65-1000-806e-a9fe75c90000" name="CUST_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d3f-0c65-1000-806e-a9fe75c90000" name="PROD_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d40-0c65-1000-806e-a9fe75c90000" name="PROMO_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d41-0c65-1000-806e-a9fe75c90000" name="QUANTITY_SOLD" dataType="DOUBLE" scale="2" precision="10" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d42-0c65-1000-806e-a9fe75c90000" name="TIME_ID" dataType="DATETIME" precision="10" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="mf0db8af5-0c65-1000-806e-a9fe75c90000" name="PROD_ID" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/f0db3d16-0c65-1000-806e-a9fe75c90000.xml#mf0db3d2d-0c65-1000-806e-a9fe75c90000">
+<RefColumns>
+<RefColumn refId="mf0db8af5-0c65-1000-806e-a9fe75c90000-mf0db3d3f-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3d3b-0c65-1000-806e-a9fe75c90000.xml#mf0db3d3f-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mf0db8af6-0c65-1000-806e-a9fe75c90000" name="PROMO_ID" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/f0db3d2e-0c65-1000-806e-a9fe75c90000.xml#mf0db3d3a-0c65-1000-806e-a9fe75c90000">
+<RefColumns>
+<RefColumn refId="mf0db8af6-0c65-1000-806e-a9fe75c90000-mf0db3d40-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3d3b-0c65-1000-806e-a9fe75c90000.xml#mf0db3d40-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mf0db8af7-0c65-1000-806e-a9fe75c90000" name="TIME_ID" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/f0db3d5d-0c65-1000-806e-a9fe75c90000.xml#mf0db3d84-0c65-1000-806e-a9fe75c90000">
+<RefColumns>
+<RefColumn refId="mf0db8af7-0c65-1000-806e-a9fe75c90000-mf0db3d42-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3d3b-0c65-1000-806e-a9fe75c90000.xml#mf0db3d42-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mf0db8af8-0c65-1000-806e-a9fe75c90000" name="CUST_ID" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/f0db3cf0-0c65-1000-806e-a9fe75c90000.xml#mf0db3d08-0c65-1000-806e-a9fe75c90000">
+<RefColumns>
+<RefColumn refId="mf0db8af8-0c65-1000-806e-a9fe75c90000-mf0db3d3e-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3d3b-0c65-1000-806e-a9fe75c90000.xml#mf0db3d3e-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mf0db8af9-0c65-1000-806e-a9fe75c90000" name="CHANNEL_ID" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/f0db3cd5-0c65-1000-806e-a9fe75c90000.xml#mf0db3cdc-0c65-1000-806e-a9fe75c90000">
+<RefColumns>
+<RefColumn refId="mf0db8af9-0c65-1000-806e-a9fe75c90000-mf0db3d3d-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3d3b-0c65-1000-806e-a9fe75c90000.xml#mf0db3d3d-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

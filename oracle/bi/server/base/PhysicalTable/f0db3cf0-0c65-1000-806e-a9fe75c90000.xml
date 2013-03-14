@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mf0db3cf0-0c65-1000-806e-a9fe75c90000" name="CUSTOMERS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/f0db3cd1-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd1-0c65-1000-806e-a9fe75c90000">
+<PhysicalColumn mdsid="mf0db3cf1-0c65-1000-806e-a9fe75c90000" name="COUNTRY_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cf2-0c65-1000-806e-a9fe75c90000" name="CUST_CITY" dataType="VARCHAR" precision="30" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cf3-0c65-1000-806e-a9fe75c90000" name="CUST_CITY_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cf4-0c65-1000-806e-a9fe75c90000" name="CUST_CREDIT_LIMIT" dataType="DOUBLE" precision="22" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cf5-0c65-1000-806e-a9fe75c90000" name="CUST_EFF_FROM" dataType="DATETIME" precision="22" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cf6-0c65-1000-806e-a9fe75c90000" name="CUST_EFF_TO" dataType="DATETIME" precision="22" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cf7-0c65-1000-806e-a9fe75c90000" name="CUST_EMAIL" dataType="VARCHAR" precision="30" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cf8-0c65-1000-806e-a9fe75c90000" name="CUST_FIRST_NAME" dataType="VARCHAR" precision="20" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cf9-0c65-1000-806e-a9fe75c90000" name="CUST_GENDER" dataType="CHAR" precision="1" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cfa-0c65-1000-806e-a9fe75c90000" name="CUST_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cfb-0c65-1000-806e-a9fe75c90000" name="CUST_INCOME_LEVEL" dataType="VARCHAR" precision="30" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cfc-0c65-1000-806e-a9fe75c90000" name="CUST_LAST_NAME" dataType="VARCHAR" precision="40" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cfd-0c65-1000-806e-a9fe75c90000" name="CUST_MAIN_PHONE_NUMBER" dataType="VARCHAR" precision="25" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cfe-0c65-1000-806e-a9fe75c90000" name="CUST_MARITAL_STATUS" dataType="VARCHAR" precision="20" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cff-0c65-1000-806e-a9fe75c90000" name="CUST_POSTAL_CODE" dataType="VARCHAR" precision="10" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d00-0c65-1000-806e-a9fe75c90000" name="CUST_SRC_ID" dataType="DOUBLE" precision="22" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d01-0c65-1000-806e-a9fe75c90000" name="CUST_STATE_PROVINCE" dataType="VARCHAR" precision="40" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d02-0c65-1000-806e-a9fe75c90000" name="CUST_STATE_PROVINCE_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d03-0c65-1000-806e-a9fe75c90000" name="CUST_STREET_ADDRESS" dataType="VARCHAR" precision="40" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d04-0c65-1000-806e-a9fe75c90000" name="CUST_TOTAL" dataType="VARCHAR" precision="14" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d05-0c65-1000-806e-a9fe75c90000" name="CUST_TOTAL_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d06-0c65-1000-806e-a9fe75c90000" name="CUST_VALID" dataType="VARCHAR" precision="1" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d07-0c65-1000-806e-a9fe75c90000" name="CUST_YEAR_OF_BIRTH" dataType="INT" precision="4" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="mf0db3d08-0c65-1000-806e-a9fe75c90000" name="CUST_ID">
+<RefColumns>
+<RefColumn refId="mf0db3d08-0c65-1000-806e-a9fe75c90000-mf0db3cfa-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3cf0-0c65-1000-806e-a9fe75c90000.xml#mf0db3cfa-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="mf0db8af4-0c65-1000-806e-a9fe75c90000" name="COUNTRY_ID" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/f0db3ce4-0c65-1000-806e-a9fe75c90000.xml#mf0db3cef-0c65-1000-806e-a9fe75c90000">
+<RefColumns>
+<RefColumn refId="mf0db8af4-0c65-1000-806e-a9fe75c90000-mf0db3cf1-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3cf0-0c65-1000-806e-a9fe75c90000.xml#mf0db3cf1-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

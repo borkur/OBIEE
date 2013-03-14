@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mf0e9e357-0c65-1000-806e-a9fe75c90000" name="PROMOTIONS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/f0df5b80-0c65-1000-806e-a9fe75c90000.xml#mf0df5b80-0c65-1000-806e-a9fe75c90000">
+<LogicalColumn mdsid="mf0e9e35a-0c65-1000-806e-a9fe75c90000" name="PROMO_BEGIN_DATE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e35b-0c65-1000-806e-a9fe75c90000" name="PROMO_CATEGORY" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e35c-0c65-1000-806e-a9fe75c90000" name="PROMO_CATEGORY_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e35d-0c65-1000-806e-a9fe75c90000" name="PROMO_COST" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e35e-0c65-1000-806e-a9fe75c90000" name="PROMO_END_DATE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e35f-0c65-1000-806e-a9fe75c90000" name="PROMO_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e360-0c65-1000-806e-a9fe75c90000" name="PROMO_NAME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e361-0c65-1000-806e-a9fe75c90000" name="PROMO_SUBCATEGORY" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e362-0c65-1000-806e-a9fe75c90000" name="PROMO_SUBCATEGORY_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e363-0c65-1000-806e-a9fe75c90000" name="PROMO_TOTAL" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e364-0c65-1000-806e-a9fe75c90000" name="PROMO_TOTAL_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="mf0e9e365-0c65-1000-806e-a9fe75c90000" name="PROMO_ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mf0e9e365-0c65-1000-806e-a9fe75c90000-mf0e9e35f-0c65-1000-806e-a9fe75c90000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e357-0c65-1000-806e-a9fe75c90000.xml#mf0e9e35f-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mf0e9e357-0c65-1000-806e-a9fe75c90000-mf0e9e359-0c65-1000-806e-a9fe75c90000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/f0e9e359-0c65-1000-806e-a9fe75c90000.xml#mf0e9e359-0c65-1000-806e-a9fe75c90000"/>
+</RefTableSources>
+</LogicalTable>

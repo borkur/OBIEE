@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mf0e9e324-0c65-1000-806e-a9fe75c90000" name="PRODUCTS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/f0df5b80-0c65-1000-806e-a9fe75c90000.xml#mf0df5b80-0c65-1000-806e-a9fe75c90000">
+<LogicalColumn mdsid="mf0e9e327-0c65-1000-806e-a9fe75c90000" name="PROD_CATEGORY" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e328-0c65-1000-806e-a9fe75c90000" name="PROD_CATEGORY_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e329-0c65-1000-806e-a9fe75c90000" name="PROD_CATEGORY_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e32a-0c65-1000-806e-a9fe75c90000" name="PROD_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e32b-0c65-1000-806e-a9fe75c90000" name="PROD_EFF_FROM" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e32c-0c65-1000-806e-a9fe75c90000" name="PROD_EFF_TO" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e32d-0c65-1000-806e-a9fe75c90000" name="PROD_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e32e-0c65-1000-806e-a9fe75c90000" name="PROD_LIST_PRICE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e32f-0c65-1000-806e-a9fe75c90000" name="PROD_MIN_PRICE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e330-0c65-1000-806e-a9fe75c90000" name="PROD_NAME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e331-0c65-1000-806e-a9fe75c90000" name="PROD_PACK_SIZE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e332-0c65-1000-806e-a9fe75c90000" name="PROD_SRC_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e333-0c65-1000-806e-a9fe75c90000" name="PROD_STATUS" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e334-0c65-1000-806e-a9fe75c90000" name="PROD_SUBCATEGORY" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e335-0c65-1000-806e-a9fe75c90000" name="PROD_SUBCATEGORY_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e336-0c65-1000-806e-a9fe75c90000" name="PROD_SUBCATEGORY_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e337-0c65-1000-806e-a9fe75c90000" name="PROD_TOTAL" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e338-0c65-1000-806e-a9fe75c90000" name="PROD_TOTAL_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e339-0c65-1000-806e-a9fe75c90000" name="PROD_UNIT_OF_MEASURE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e33a-0c65-1000-806e-a9fe75c90000" name="PROD_VALID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e33b-0c65-1000-806e-a9fe75c90000" name="PROD_WEIGHT_CLASS" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e33c-0c65-1000-806e-a9fe75c90000" name="SUPPLIER_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="mf0e9e33d-0c65-1000-806e-a9fe75c90000" name="PROD_ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mf0e9e33d-0c65-1000-806e-a9fe75c90000-mf0e9e32d-0c65-1000-806e-a9fe75c90000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e324-0c65-1000-806e-a9fe75c90000.xml#mf0e9e32d-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mf0e9e324-0c65-1000-806e-a9fe75c90000-mf0e9e326-0c65-1000-806e-a9fe75c90000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/f0e9e326-0c65-1000-806e-a9fe75c90000.xml#mf0e9e326-0c65-1000-806e-a9fe75c90000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="mf0f6dc14-0c65-1000-806e-a9fe75c90000" name="SH" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/f0df5b80-0c65-1000-806e-a9fe75c90000.xml#mf0df5b80-0c65-1000-806e-a9fe75c90000">
+<RefTables>
+<RefPresentationTable refId="mf0f6dc14-0c65-1000-806e-a9fe75c90000-mf0f6dc18-0c65-1000-806e-a9fe75c90000" presentationTableRef="/oracle/bi/server/base/PresentationTable/f0f6dc18-0c65-1000-806e-a9fe75c90000.xml#mf0f6dc18-0c65-1000-806e-a9fe75c90000"/>
+<RefPresentationTable refId="mf0f6dc14-0c65-1000-806e-a9fe75c90000-mf0f6dc19-0c65-1000-806e-a9fe75c90000" presentationTableRef="/oracle/bi/server/base/PresentationTable/f0f6dc19-0c65-1000-806e-a9fe75c90000.xml#mf0f6dc19-0c65-1000-806e-a9fe75c90000"/>
+<RefPresentationTable refId="mf0f6dc14-0c65-1000-806e-a9fe75c90000-mf0f6dc1a-0c65-1000-806e-a9fe75c90000" presentationTableRef="/oracle/bi/server/base/PresentationTable/f0f6dc1a-0c65-1000-806e-a9fe75c90000.xml#mf0f6dc1a-0c65-1000-806e-a9fe75c90000"/>
+<RefPresentationTable refId="mf0f6dc14-0c65-1000-806e-a9fe75c90000-mf0f6dc1b-0c65-1000-806e-a9fe75c90000" presentationTableRef="/oracle/bi/server/base/PresentationTable/f0f6dc1b-0c65-1000-806e-a9fe75c90000.xml#mf0f6dc1b-0c65-1000-806e-a9fe75c90000"/>
+<RefPresentationTable refId="mf0f6dc14-0c65-1000-806e-a9fe75c90000-mf0f6dc15-0c65-1000-806e-a9fe75c90000" presentationTableRef="/oracle/bi/server/base/PresentationTable/f0f6dc15-0c65-1000-806e-a9fe75c90000.xml#mf0f6dc15-0c65-1000-806e-a9fe75c90000"/>
+<RefPresentationTable refId="mf0f6dc14-0c65-1000-806e-a9fe75c90000-mf0f6dc16-0c65-1000-806e-a9fe75c90000" presentationTableRef="/oracle/bi/server/base/PresentationTable/f0f6dc16-0c65-1000-806e-a9fe75c90000.xml#mf0f6dc16-0c65-1000-806e-a9fe75c90000"/>
+<RefPresentationTable refId="mf0f6dc14-0c65-1000-806e-a9fe75c90000-mf0f6dc17-0c65-1000-806e-a9fe75c90000" presentationTableRef="/oracle/bi/server/base/PresentationTable/f0f6dc17-0c65-1000-806e-a9fe75c90000.xml#mf0f6dc17-0c65-1000-806e-a9fe75c90000"/>
+</RefTables>
+</PresentationCatalog>

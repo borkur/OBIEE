@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mf0db3cd5-0c65-1000-806e-a9fe75c90000" name="CHANNELS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/f0db3cd1-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd1-0c65-1000-806e-a9fe75c90000">
+<PhysicalColumn mdsid="mf0db3cd6-0c65-1000-806e-a9fe75c90000" name="CHANNEL_CLASS" dataType="VARCHAR" precision="20" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cd7-0c65-1000-806e-a9fe75c90000" name="CHANNEL_CLASS_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cd8-0c65-1000-806e-a9fe75c90000" name="CHANNEL_DESC" dataType="VARCHAR" precision="20" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cd9-0c65-1000-806e-a9fe75c90000" name="CHANNEL_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cda-0c65-1000-806e-a9fe75c90000" name="CHANNEL_TOTAL" dataType="VARCHAR" precision="13" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cdb-0c65-1000-806e-a9fe75c90000" name="CHANNEL_TOTAL_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="mf0db3cdc-0c65-1000-806e-a9fe75c90000" name="CHANNEL_ID">
+<RefColumns>
+<RefColumn refId="mf0db3cdc-0c65-1000-806e-a9fe75c90000-mf0db3cd9-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3cd5-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd9-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

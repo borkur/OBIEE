@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mf0f6dc18-0c65-1000-806e-a9fe75c90000" name="CHANNELS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/f0f6dc14-0c65-1000-806e-a9fe75c90000.xml#mf0f6dc14-0c65-1000-806e-a9fe75c90000">
+<PresentationColumn mdsid="mf0f6dbe2-0c65-1000-806e-a9fe75c90000" name="CHANNEL_CLASS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e2d0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2d3-0c65-1000-806e-a9fe75c90000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf0f6dbe3-0c65-1000-806e-a9fe75c90000" name="CHANNEL_CLASS_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e2d0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2d4-0c65-1000-806e-a9fe75c90000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf0f6dbe4-0c65-1000-806e-a9fe75c90000" name="CHANNEL_DESC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e2d0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2d5-0c65-1000-806e-a9fe75c90000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf0f6dbe5-0c65-1000-806e-a9fe75c90000" name="CHANNEL_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e2d0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2d6-0c65-1000-806e-a9fe75c90000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf0f6dbe6-0c65-1000-806e-a9fe75c90000" name="CHANNEL_TOTAL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e2d0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2d7-0c65-1000-806e-a9fe75c90000">
+</PresentationColumn>
+<PresentationColumn mdsid="mf0f6dbe7-0c65-1000-806e-a9fe75c90000" name="CHANNEL_TOTAL_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e2d0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2d8-0c65-1000-806e-a9fe75c90000">
+</PresentationColumn>
+</PresentationTable>

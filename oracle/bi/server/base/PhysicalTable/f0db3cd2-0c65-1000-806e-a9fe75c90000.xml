@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mf0db3cd2-0c65-1000-806e-a9fe75c90000" name="CAL_MONTH_SALES_MV" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/f0db3cd1-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd1-0c65-1000-806e-a9fe75c90000">
+<PhysicalColumn mdsid="mf0db3cd3-0c65-1000-806e-a9fe75c90000" name="CALENDAR_MONTH_DESC" dataType="VARCHAR" precision="8" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cd4-0c65-1000-806e-a9fe75c90000" name="DOLLARS" dataType="DOUBLE" precision="22" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

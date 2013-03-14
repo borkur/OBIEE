@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mf0db3d2e-0c65-1000-806e-a9fe75c90000" name="PROMOTIONS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/f0db3cd1-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd1-0c65-1000-806e-a9fe75c90000">
+<PhysicalColumn mdsid="mf0db3d2f-0c65-1000-806e-a9fe75c90000" name="PROMO_BEGIN_DATE" dataType="DATETIME" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d30-0c65-1000-806e-a9fe75c90000" name="PROMO_CATEGORY" dataType="VARCHAR" precision="30" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d31-0c65-1000-806e-a9fe75c90000" name="PROMO_CATEGORY_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d32-0c65-1000-806e-a9fe75c90000" name="PROMO_COST" dataType="DOUBLE" scale="2" precision="10" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d33-0c65-1000-806e-a9fe75c90000" name="PROMO_END_DATE" dataType="DATETIME" precision="10" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d34-0c65-1000-806e-a9fe75c90000" name="PROMO_ID" dataType="INT" precision="6" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d35-0c65-1000-806e-a9fe75c90000" name="PROMO_NAME" dataType="VARCHAR" precision="30" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d36-0c65-1000-806e-a9fe75c90000" name="PROMO_SUBCATEGORY" dataType="VARCHAR" precision="30" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d37-0c65-1000-806e-a9fe75c90000" name="PROMO_SUBCATEGORY_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d38-0c65-1000-806e-a9fe75c90000" name="PROMO_TOTAL" dataType="VARCHAR" precision="15" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d39-0c65-1000-806e-a9fe75c90000" name="PROMO_TOTAL_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="mf0db3d3a-0c65-1000-806e-a9fe75c90000" name="PROMO_ID">
+<RefColumns>
+<RefColumn refId="mf0db3d3a-0c65-1000-806e-a9fe75c90000-mf0db3d34-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3d2e-0c65-1000-806e-a9fe75c90000.xml#mf0db3d34-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

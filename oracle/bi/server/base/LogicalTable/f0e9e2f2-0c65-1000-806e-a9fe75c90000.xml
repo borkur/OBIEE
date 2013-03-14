@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mf0e9e2f2-0c65-1000-806e-a9fe75c90000" name="CUSTOMERS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/f0df5b80-0c65-1000-806e-a9fe75c90000.xml#mf0df5b80-0c65-1000-806e-a9fe75c90000">
+<LogicalColumn mdsid="mf0e9e2f5-0c65-1000-806e-a9fe75c90000" name="COUNTRY_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2f6-0c65-1000-806e-a9fe75c90000" name="CUST_CITY" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2f7-0c65-1000-806e-a9fe75c90000" name="CUST_CITY_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2f8-0c65-1000-806e-a9fe75c90000" name="CUST_CREDIT_LIMIT" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2f9-0c65-1000-806e-a9fe75c90000" name="CUST_EFF_FROM" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2fa-0c65-1000-806e-a9fe75c90000" name="CUST_EFF_TO" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2fb-0c65-1000-806e-a9fe75c90000" name="CUST_EMAIL" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2fc-0c65-1000-806e-a9fe75c90000" name="CUST_FIRST_NAME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2fd-0c65-1000-806e-a9fe75c90000" name="CUST_GENDER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2fe-0c65-1000-806e-a9fe75c90000" name="CUST_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2ff-0c65-1000-806e-a9fe75c90000" name="CUST_INCOME_LEVEL" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e300-0c65-1000-806e-a9fe75c90000" name="CUST_LAST_NAME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e301-0c65-1000-806e-a9fe75c90000" name="CUST_MAIN_PHONE_NUMBER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e302-0c65-1000-806e-a9fe75c90000" name="CUST_MARITAL_STATUS" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e303-0c65-1000-806e-a9fe75c90000" name="CUST_POSTAL_CODE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e304-0c65-1000-806e-a9fe75c90000" name="CUST_SRC_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e305-0c65-1000-806e-a9fe75c90000" name="CUST_STATE_PROVINCE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e306-0c65-1000-806e-a9fe75c90000" name="CUST_STATE_PROVINCE_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e307-0c65-1000-806e-a9fe75c90000" name="CUST_STREET_ADDRESS" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e308-0c65-1000-806e-a9fe75c90000" name="CUST_TOTAL" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e309-0c65-1000-806e-a9fe75c90000" name="CUST_TOTAL_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e30a-0c65-1000-806e-a9fe75c90000" name="CUST_VALID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e30b-0c65-1000-806e-a9fe75c90000" name="CUST_YEAR_OF_BIRTH" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0f0728a-0c65-1000-806e-a9fe75c90000" name="COUNTRY_REGION" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0f0728b-0c65-1000-806e-a9fe75c90000" name="COUNTRY_SUBREGION" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0f0728c-0c65-1000-806e-a9fe75c90000" name="COUNTRY_TOTAL" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0f0728d-0c65-1000-806e-a9fe75c90000" name="COUNTRY_ISO_CODE" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0f0728e-0c65-1000-806e-a9fe75c90000" name="COUNTRY_NAME" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="mf0e9e30c-0c65-1000-806e-a9fe75c90000" name="CUST_ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mf0e9e30c-0c65-1000-806e-a9fe75c90000-mf0e9e2fe-0c65-1000-806e-a9fe75c90000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e2f2-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2fe-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mf0e9e2f2-0c65-1000-806e-a9fe75c90000-mf0e9e2f4-0c65-1000-806e-a9fe75c90000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/f0e9e2f4-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2f4-0c65-1000-806e-a9fe75c90000"/>
+</RefTableSources>
+</LogicalTable>

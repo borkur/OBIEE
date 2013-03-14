@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mf0db3d4d-0c65-1000-806e-a9fe75c90000" name="SUPPLEMENTARY_DEMOGRAPHICS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="4500.0" lastUpdated="2013-03-14 15:27:47" maxConn="0" containerRef="/oracle/bi/server/base/Schema/f0db3cd1-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd1-0c65-1000-806e-a9fe75c90000">
+<PhysicalColumn mdsid="mf0db3d4e-0c65-1000-806e-a9fe75c90000" name="AFFINITY_CARD" dataType="DOUBLE" precision="10" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d4f-0c65-1000-806e-a9fe75c90000" name="BOOKKEEPING_APPLICATION" dataType="DOUBLE" precision="10" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d50-0c65-1000-806e-a9fe75c90000" name="BULK_PACK_DISKETTES" dataType="DOUBLE" precision="10" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d51-0c65-1000-806e-a9fe75c90000" name="COMMENTS" dataType="VARCHAR" precision="4000" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d52-0c65-1000-806e-a9fe75c90000" name="CUST_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d53-0c65-1000-806e-a9fe75c90000" name="EDUCATION" dataType="VARCHAR" precision="21" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d54-0c65-1000-806e-a9fe75c90000" name="FLAT_PANEL_MONITOR" dataType="DOUBLE" precision="10" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d55-0c65-1000-806e-a9fe75c90000" name="HOME_THEATER_PACKAGE" dataType="DOUBLE" precision="10" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d56-0c65-1000-806e-a9fe75c90000" name="HOUSEHOLD_SIZE" dataType="VARCHAR" precision="21" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d57-0c65-1000-806e-a9fe75c90000" name="OCCUPATION" dataType="VARCHAR" precision="21" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d58-0c65-1000-806e-a9fe75c90000" name="OS_DOC_SET_KANJI" dataType="DOUBLE" precision="10" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d59-0c65-1000-806e-a9fe75c90000" name="PRINTER_SUPPLIES" dataType="DOUBLE" precision="10" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d5a-0c65-1000-806e-a9fe75c90000" name="YRS_RESIDENCE" dataType="DOUBLE" precision="22" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d5b-0c65-1000-806e-a9fe75c90000" name="Y_BOX_GAMES" dataType="DOUBLE" precision="10" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="mf0db3d5c-0c65-1000-806e-a9fe75c90000" name="CUST_ID">
+<RefColumns>
+<RefColumn refId="mf0db3d5c-0c65-1000-806e-a9fe75c90000-mf0db3d52-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3d4d-0c65-1000-806e-a9fe75c90000.xml#mf0db3d52-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

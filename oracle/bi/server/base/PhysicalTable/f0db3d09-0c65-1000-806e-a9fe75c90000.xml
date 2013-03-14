@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mf0db3d09-0c65-1000-806e-a9fe75c90000" name="DIMENSION_EXCEPTIONS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" lastUpdated="2013-03-14 15:31:10" maxConn="0" containerRef="/oracle/bi/server/base/Schema/f0db3cd1-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd1-0c65-1000-806e-a9fe75c90000">
+<PhysicalColumn mdsid="mf0db3d0a-0c65-1000-806e-a9fe75c90000" name="BAD_ROWID" dataType="UNKNOWN" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d0b-0c65-1000-806e-a9fe75c90000" name="DIMENSION_NAME" dataType="VARCHAR" precision="30" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d0c-0c65-1000-806e-a9fe75c90000" name="OWNER" dataType="VARCHAR" precision="30" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d0d-0c65-1000-806e-a9fe75c90000" name="RELATIONSHIP" dataType="VARCHAR" precision="11" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d0e-0c65-1000-806e-a9fe75c90000" name="STATEMENT_ID" dataType="VARCHAR" precision="30" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3d0f-0c65-1000-806e-a9fe75c90000" name="TABLE_NAME" dataType="VARCHAR" precision="30" extName="sh" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

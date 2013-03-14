@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mf0db3ce4-0c65-1000-806e-a9fe75c90000" name="COUNTRIES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/f0db3cd1-0c65-1000-806e-a9fe75c90000.xml#mf0db3cd1-0c65-1000-806e-a9fe75c90000">
+<PhysicalColumn mdsid="mf0db3ce5-0c65-1000-806e-a9fe75c90000" name="COUNTRY_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3ce6-0c65-1000-806e-a9fe75c90000" name="COUNTRY_ISO_CODE" dataType="CHAR" precision="2" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3ce7-0c65-1000-806e-a9fe75c90000" name="COUNTRY_NAME" dataType="VARCHAR" precision="40" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3ce8-0c65-1000-806e-a9fe75c90000" name="COUNTRY_NAME_HIST" dataType="VARCHAR" precision="40" nullable="true" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3ce9-0c65-1000-806e-a9fe75c90000" name="COUNTRY_REGION" dataType="VARCHAR" precision="20" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cea-0c65-1000-806e-a9fe75c90000" name="COUNTRY_REGION_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3ceb-0c65-1000-806e-a9fe75c90000" name="COUNTRY_SUBREGION" dataType="VARCHAR" precision="30" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cec-0c65-1000-806e-a9fe75c90000" name="COUNTRY_SUBREGION_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3ced-0c65-1000-806e-a9fe75c90000" name="COUNTRY_TOTAL" dataType="VARCHAR" precision="11" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mf0db3cee-0c65-1000-806e-a9fe75c90000" name="COUNTRY_TOTAL_ID" dataType="DOUBLE" precision="22" extName="sh" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="mf0db3cef-0c65-1000-806e-a9fe75c90000" name="COUNTRY_ID">
+<RefColumns>
+<RefColumn refId="mf0db3cef-0c65-1000-806e-a9fe75c90000-mf0db3ce5-0c65-1000-806e-a9fe75c90000" columnRef="/oracle/bi/server/base/PhysicalTable/f0db3ce4-0c65-1000-806e-a9fe75c90000.xml#mf0db3ce5-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

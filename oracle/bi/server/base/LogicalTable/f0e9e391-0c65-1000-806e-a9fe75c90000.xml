@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mf0e9e391-0c65-1000-806e-a9fe75c90000" name="TIMES" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/f0df5b80-0c65-1000-806e-a9fe75c90000.xml#mf0df5b80-0c65-1000-806e-a9fe75c90000">
+<LogicalColumn mdsid="mf0e9e394-0c65-1000-806e-a9fe75c90000" name="CALENDAR_MONTH_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e395-0c65-1000-806e-a9fe75c90000" name="CALENDAR_MONTH_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e396-0c65-1000-806e-a9fe75c90000" name="CALENDAR_MONTH_NAME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e397-0c65-1000-806e-a9fe75c90000" name="CALENDAR_MONTH_NUMBER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e398-0c65-1000-806e-a9fe75c90000" name="CALENDAR_QUARTER_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e399-0c65-1000-806e-a9fe75c90000" name="CALENDAR_QUARTER_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e39a-0c65-1000-806e-a9fe75c90000" name="CALENDAR_QUARTER_NUMBER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e39b-0c65-1000-806e-a9fe75c90000" name="CALENDAR_WEEK_NUMBER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e39c-0c65-1000-806e-a9fe75c90000" name="CALENDAR_YEAR" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e39d-0c65-1000-806e-a9fe75c90000" name="CALENDAR_YEAR_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e39e-0c65-1000-806e-a9fe75c90000" name="DAY_NAME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e39f-0c65-1000-806e-a9fe75c90000" name="DAY_NUMBER_IN_MONTH" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a0-0c65-1000-806e-a9fe75c90000" name="DAY_NUMBER_IN_WEEK" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a1-0c65-1000-806e-a9fe75c90000" name="DAYS_IN_CAL_MONTH" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a2-0c65-1000-806e-a9fe75c90000" name="DAYS_IN_CAL_QUARTER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a3-0c65-1000-806e-a9fe75c90000" name="DAYS_IN_CAL_YEAR" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a4-0c65-1000-806e-a9fe75c90000" name="DAYS_IN_FIS_MONTH" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a5-0c65-1000-806e-a9fe75c90000" name="DAYS_IN_FIS_QUARTER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a6-0c65-1000-806e-a9fe75c90000" name="DAYS_IN_FIS_YEAR" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a7-0c65-1000-806e-a9fe75c90000" name="END_OF_CAL_MONTH" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a8-0c65-1000-806e-a9fe75c90000" name="END_OF_CAL_QUARTER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3a9-0c65-1000-806e-a9fe75c90000" name="END_OF_CAL_YEAR" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3aa-0c65-1000-806e-a9fe75c90000" name="END_OF_FIS_MONTH" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3ab-0c65-1000-806e-a9fe75c90000" name="END_OF_FIS_QUARTER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3ac-0c65-1000-806e-a9fe75c90000" name="END_OF_FIS_YEAR" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3ad-0c65-1000-806e-a9fe75c90000" name="FISCAL_MONTH_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3ae-0c65-1000-806e-a9fe75c90000" name="FISCAL_MONTH_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3af-0c65-1000-806e-a9fe75c90000" name="FISCAL_MONTH_NAME" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b0-0c65-1000-806e-a9fe75c90000" name="FISCAL_MONTH_NUMBER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b1-0c65-1000-806e-a9fe75c90000" name="FISCAL_QUARTER_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b2-0c65-1000-806e-a9fe75c90000" name="FISCAL_QUARTER_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b3-0c65-1000-806e-a9fe75c90000" name="FISCAL_QUARTER_NUMBER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b4-0c65-1000-806e-a9fe75c90000" name="FISCAL_WEEK_NUMBER" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b5-0c65-1000-806e-a9fe75c90000" name="FISCAL_YEAR" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b6-0c65-1000-806e-a9fe75c90000" name="FISCAL_YEAR_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b7-0c65-1000-806e-a9fe75c90000" name="TIME_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b8-0c65-1000-806e-a9fe75c90000" name="WEEK_ENDING_DAY" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e3b9-0c65-1000-806e-a9fe75c90000" name="WEEK_ENDING_DAY_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="mf0e9e3ba-0c65-1000-806e-a9fe75c90000" name="TIME_ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mf0e9e3ba-0c65-1000-806e-a9fe75c90000-mf0e9e3b7-0c65-1000-806e-a9fe75c90000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e391-0c65-1000-806e-a9fe75c90000.xml#mf0e9e3b7-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mf0e9e391-0c65-1000-806e-a9fe75c90000-mf0e9e393-0c65-1000-806e-a9fe75c90000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/f0e9e393-0c65-1000-806e-a9fe75c90000.xml#mf0e9e393-0c65-1000-806e-a9fe75c90000"/>
+</RefTableSources>
+</LogicalTable>

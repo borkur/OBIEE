@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mf0e9e2d0-0c65-1000-806e-a9fe75c90000" name="CHANNELS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/f0df5b80-0c65-1000-806e-a9fe75c90000.xml#mf0df5b80-0c65-1000-806e-a9fe75c90000">
+<LogicalColumn mdsid="mf0e9e2d3-0c65-1000-806e-a9fe75c90000" name="CHANNEL_CLASS" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2d4-0c65-1000-806e-a9fe75c90000" name="CHANNEL_CLASS_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2d5-0c65-1000-806e-a9fe75c90000" name="CHANNEL_DESC" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2d6-0c65-1000-806e-a9fe75c90000" name="CHANNEL_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2d7-0c65-1000-806e-a9fe75c90000" name="CHANNEL_TOTAL" isWriteable="false">
+</LogicalColumn>
+<LogicalColumn mdsid="mf0e9e2d8-0c65-1000-806e-a9fe75c90000" name="CHANNEL_TOTAL_ID" isWriteable="false">
+</LogicalColumn>
+<LogicalKey mdsid="mf0e9e2d9-0c65-1000-806e-a9fe75c90000" name="CHANNEL_ID" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mf0e9e2d9-0c65-1000-806e-a9fe75c90000-mf0e9e2d6-0c65-1000-806e-a9fe75c90000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/f0e9e2d0-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2d6-0c65-1000-806e-a9fe75c90000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mf0e9e2d0-0c65-1000-806e-a9fe75c90000-mf0e9e2d2-0c65-1000-806e-a9fe75c90000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/f0e9e2d2-0c65-1000-806e-a9fe75c90000.xml#mf0e9e2d2-0c65-1000-806e-a9fe75c90000"/>
+</RefTableSources>
+</LogicalTable>
