@@ -33,7 +33,7 @@
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="A4CC28EF-2ACF-542D-50D8-0D039534C552" otype="Note" vid="5DC5C6B4-EAD8-1236-FAB7-D675D816AE60">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="662" y="592" width="327" height="252"/>
-<comment>Attribite fact table should be the same as order line + att key (from new ATT dim)  + Att price</comment>
+<comment>Attribite fact table should be the same as order line + att key (from new ATT dim)  + Att price&lt;br/&gt;How is that supposed to be modelled in the RPD?</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A7290789-C52E-6098-623C-0817AF4FAA51" otype="Table" vid="3F29CECB-44C3-FACD-77B9-D901E24B2D79">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
