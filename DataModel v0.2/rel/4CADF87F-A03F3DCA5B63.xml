@@ -12,5 +12,11 @@
 <connUser>system</connUser>
 <connType>1</connType>
 </importConnectionStamp>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>GCBC - GCBC_PEF</connName>
+<connUrl>jdbc:oracle:thin:@192.168.0.114:1521/pdborcl</connUrl>
+<connUser>GCBC_PEF</connUser>
+<connType>1</connType>
+</importConnectionStamp>
 </importConnectionStamps>
 </relationalModel>

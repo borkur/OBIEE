@@ -1,6 +1,7 @@
 --------------------------------------------------------
 --  DDL for Table FACT_ORDER_LINE
 --------------------------------------------------------
+
 drop table FACT_ORDER_LINE_P purge;
 
   CREATE TABLE "GCBC_PEF"."FACT_ORDER_LINE_P" 

@@ -7,6 +7,7 @@
 <abbreviation>SOLA</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
 <Column name="Orders_Line_Att_Key" id="D00C50D0-2384-76EB-9FC8-AE49D7CE8E3F">
 <createdBy>Adam</createdBy>
@@ -15,6 +16,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Product_Key" id="E4D0812B-9649-3042-B35E-726F8C2A0E7D">
@@ -24,6 +26,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -37,23 +40,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B6BFCF1E-8C6C-9487-D206-A05B5F7B00B8" referredColumn="583948C1-C8D8-D3D2-2FC4-9B1E66E9B871"/>
-</associations>
-</Column>
-<Column name="Address_Key" id="66318D83-745D-F315-FE42-3F70C3260063">
-<createdBy>edelweiss.kammermann</createdBy>
-<createdTime>2015-06-09 17:58:32 UTC</createdTime>
-<ownerDesignName>DataModel v0.2</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6C3BD2EF-13F4-51C8-A11D-1D436A18C4C6" referredColumn="C595507E-78E4-14BE-953F-CF4B005A6404"/>
 </associations>
 </Column>
 <Column name="Staff_Key" id="E551B612-A4FD-19C9-E074-39DB899DFD3B">
@@ -63,10 +54,25 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="253364BA-ADC1-CFA2-3A42-FEDD850E84C0" referredColumn="22819AD7-F04B-BC34-D98E-D647718BF007"/>
+</associations>
+</Column>
+<Column name="Address_Key" id="66318D83-745D-F315-FE42-3F70C3260063">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 17:58:32 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C3BD2EF-13F4-51C8-A11D-1D436A18C4C6" referredColumn="C595507E-78E4-14BE-953F-CF4B005A6404"/>
 </associations>
 </Column>
 <Column name="Address_Key3" id="41BE0C10-9861-4AD1-39C9-4D8D6C71E25D">
@@ -76,32 +82,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="DF4610FF-1E01-C7C8-4EDD-118C3721ED7D" referredColumn="C595507E-78E4-14BE-953F-CF4B005A6404"/>
-</associations>
-</Column>
-<Column name="Time_Key" id="0ECBA401-8465-309A-6F49-F87401B76B2D">
-<createdBy>edelweiss.kammermann</createdBy>
-<createdTime>2015-06-09 17:58:32 UTC</createdTime>
-<ownerDesignName>DataModel v0.2</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Outlet_Key" id="C30EB591-20E2-34AF-37F9-05774443537A">
-<createdBy>edelweiss.kammermann</createdBy>
-<createdTime>2015-06-09 17:58:32 UTC</createdTime>
-<ownerDesignName>DataModel v0.2</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BB2AD16B-1BEE-A301-3120-38AFF706EC79" referredColumn="7249D4E4-E79D-B0A8-9045-4B513114DAEB"/>
 </associations>
 </Column>
 <Column name="Address_Key1" id="490F7BCA-34D4-5731-8C64-C68D017F11CB">
@@ -111,10 +96,60 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="49FE310A-4CF7-9A42-1586-9DFA828FD17F" referredColumn="C595507E-78E4-14BE-953F-CF4B005A6404"/>
+</associations>
+</Column>
+<Column name="Time_Key" id="0ECBA401-8465-309A-6F49-F87401B76B2D">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 17:58:32 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Outlet_Key" id="C30EB591-20E2-34AF-37F9-05774443537A">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 17:58:32 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB2AD16B-1BEE-A301-3120-38AFF706EC79" referredColumn="7249D4E4-E79D-B0A8-9045-4B513114DAEB"/>
+</associations>
+</Column>
+<Column name="Order_date_key" id="E5E6E15C-34F3-2337-57D0-D69324E29951">
+<createdBy>borkur</createdBy>
+<createdTime>2015-11-25 15:40:12 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_date" id="8BE5E92F-3630-2CCE-A58A-C5DAF64237F5">
+<createdBy>borkur</createdBy>
+<createdTime>2015-11-25 15:40:12 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A507835-4295-7243-3F2C-99197181F46C" referredColumn="6429F91A-684D-0191-EA06-4F4398944BD7"/>
 </associations>
 </Column>
 <Column name="Attribute_Key" id="B8E5CC9C-CCF7-A2FF-4EBA-53874B973460">
@@ -124,6 +159,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="115FE4ED-D1A6-64E7-25B8-ED0D6354CC84" referredColumn="F182B780-AB19-CF89-ED7B-FCCB02CE40F2"/>
@@ -137,6 +173,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Sales_Order_Line_ID" id="17EEA193-7961-F085-5698-474FD4C817CF">
@@ -146,6 +183,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Quantity" id="9988998C-933B-08F7-0E40-10B742792FBD">
@@ -156,6 +194,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Discount" id="6C6377FB-073A-0B1B-ECAA-56D68C5CA153">
@@ -169,6 +208,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Unit_Price" id="B6039052-11F4-80F7-13C8-1678923D4AAE">
@@ -179,6 +219,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Internet_Order_Flag" id="CCD9E0E0-F168-E0B6-E868-5A1CFE4DEB08">
@@ -190,6 +231,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Attribute_Amount" id="0E304C10-DD20-B5FF-D927-3E48AFE4A534">
@@ -200,6 +242,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -293,6 +336,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B8E5CC9C-CCF7-A2FF-4EBA-53874B973460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2F708EE-B1BB-2E55-B729-AD8A750FD16A" name="SOLA_DATE_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-11-25 15:58:42 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BE5E92F-3630-2CCE-A58A-C5DAF64237F5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
