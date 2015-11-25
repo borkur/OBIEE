@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Product_Types" directorySegmentName="seg_0" id="1D345514-141D-1CE8-1C34-30DA8B7DE2EB">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Product_type_id" id="00D98246-2A63-45EA-2810-2F8C6158C887">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Product_Type" id="07F20953-E662-96AC-7A92-30B226AAA9C3">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Updated_Date" id="46BE1564-B0D7-3F65-D1AE-CBA144BCF866">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-04 11:53:23 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Created_Date" id="CD96056C-E053-F221-DEFE-78DEF2C0068F">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-04 11:53:23 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Product_Types_PK" id="8B35D714-E756-0277-7C61-5D1E3D91F127">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

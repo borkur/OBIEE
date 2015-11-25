@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="606D429B-4D51-3F0F-CFBC-E0582FF25684" name="Dim_Attributes">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<typeID>2</typeID>
+<abbreviation>ATTR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attribute_Key" id="F182B780-AB19-CF89-ED7B-FCCB02CE40F2">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:47:43 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_ID" id="4E1DCD06-DD22-45FB-C352-71A6B6698D6F">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_Name" id="39E54896-89BF-28D2-F31D-DDDA260046E8">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_Type_ID" id="0F324D1E-4463-5564-7299-BE56A8F29D76">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_Type_Desc" id="9D2105BC-8371-07BA-2DA5-31C237E993BB">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:49:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F063A616-807B-49D0-F385-52F4A535BED1" name="Attributes_PK">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F182B780-AB19-CF89-ED7B-FCCB02CE40F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

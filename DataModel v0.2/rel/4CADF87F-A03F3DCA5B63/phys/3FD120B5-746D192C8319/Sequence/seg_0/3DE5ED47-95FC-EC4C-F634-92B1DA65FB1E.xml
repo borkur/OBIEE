@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="Currency_key_seq" directorySegmentName="seg_0" id="3DE5ED47-95FC-EC4C-F634-92B1DA65FB1E">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:12:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</SequenceOraclev10g>

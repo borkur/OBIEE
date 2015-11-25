@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1E96C56-F4AD-D372-07DD-F86F85697AF7" name="Dim_Supplier">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Supplier_Key" id="EA83398C-C4A1-011F-6648-CDAFB9ACCC5C">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supplier_ID" id="DB87DA91-DE29-263E-7E2B-743EAE2B2280">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supplier_Name" id="FEC58BFE-4848-961F-BC8A-45DFDA709FB7">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supplier_Since" id="C0A739FB-7B8B-72D5-85E2-96AFF68E4397">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Current_Address_Key" id="437CEC57-A347-C1E3-8A65-700886B85344">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1301A3CF-5505-3717-AA42-61CC07570E13" name="Dim_Productsv1_PKv1">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA83398C-C4A1-011F-6648-CDAFB9ACCC5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

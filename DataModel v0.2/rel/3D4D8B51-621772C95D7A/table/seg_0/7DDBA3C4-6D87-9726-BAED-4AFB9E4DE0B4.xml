@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" name="Products">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:30:15 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Products_ID" id="B980EF82-923B-E1BE-1735-06D651CE2621">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:30:28 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_type_id" id="49F71424-7470-B812-1E61-6E349ED6FE30">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:42:54 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="306A3E76-5EFE-290B-AF87-2F699030F62B" referredColumn="00D98246-2A63-45EA-2810-2F8C6158C887"/>
+</associations>
+</Column>
+<Column name="Product_Category_ID" id="63BCE586-5A9C-A2C4-938E-94791D8B79CD">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-04 11:58:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<abbreviation>Prod_Cat_ID</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Products_Prod_Cat_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B5B8A8E7-E9D7-B66E-F523-B3F10D775E4D" referredColumn="99471CAA-37F5-685A-6CDC-9CF1E0E07F1E"/>
+</associations>
+</Column>
+<Column name="Product_Name" id="8A78149A-2AF0-C3CC-467F-C60F897781FB">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 16:02:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_Date" id="7672366D-7EF0-07BE-13F1-C4B5CB6607EB">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:53:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="FD102A02-7B49-50DD-D535-E5F60546942D">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:53:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD939772-DFA1-27CD-BAC7-A6CB91F57F9D" name="Products_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:30:28 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B980EF82-923B-E1BE-1735-06D651CE2621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DD2A049-2573-E7C2-0700-FF7D66F47F18" name="Products_PTY_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:42:54 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49F71424-7470-B812-1E61-6E349ED6FE30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CC2F1C2-F461-C097-2462-B453767768AD" name="Products_Prod_Cat_FK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-04 11:58:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63BCE586-5A9C-A2C4-938E-94791D8B79CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

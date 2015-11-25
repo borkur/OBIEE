@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D345514-141D-1CE8-1C34-30DA8B7DE2EB" name="Product_Types">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:41:12 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>PTY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_type_id" id="00D98246-2A63-45EA-2810-2F8C6158C887">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:41:37 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Type" id="07F20953-E662-96AC-7A92-30B226AAA9C3">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 16:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_Date" id="CD96056C-E053-F221-DEFE-78DEF2C0068F">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:53:15 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="46BE1564-B0D7-3F65-D1AE-CBA144BCF866">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:53:15 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B35D714-E756-0277-7C61-5D1E3D91F127" name="Product_Types_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:42:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00D98246-2A63-45EA-2810-2F8C6158C887"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

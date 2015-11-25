@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE06110C-CF92-F811-D219-78ADD8BAD4B6" name="Supplier_Products">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:14:03 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_Supplier_ID" id="7E273D17-A008-CCA6-406F-46778D8F3D70">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:14:59 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supplier_ID" id="E1084E96-7227-C4E9-E0D9-DB89432D9772">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:16:48 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22E09071-6594-E3E9-0101-A82E0A0E906A" referredColumn="BF733B19-774B-7143-D5AE-043C53BB8B2F"/>
+</associations>
+</Column>
+<Column name="Products_ID" id="C770C02B-A22E-F51C-1BE1-45688E995780">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:19:08 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73C57A4B-3ED8-5F47-6E93-8CB0EE824266" referredColumn="B980EF82-923B-E1BE-1735-06D651CE2621"/>
+</associations>
+</Column>
+<Column name="Created_Date" id="487A9BD9-5020-CF67-002F-62B87AF5FBC2">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:17:06 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="9523D1FB-228D-4820-CE43-D7FE9B5F2F98">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:17:06 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F30C7A3E-4077-ED83-43FE-1B7953DC6DF6" name="Supplier_Products_PK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:14:59 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E273D17-A008-CCA6-406F-46778D8F3D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A15AFE0D-EA31-D3E6-8F90-22874249D421" name="Supplier_Products_Products_FK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:19:08 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C770C02B-A22E-F51C-1BE1-45688E995780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4E10F18-27E1-3B05-1033-02C8D5A3341F" name="Supplier_Products_Suppliers_FK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:19:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1084E96-7227-C4E9-E0D9-DB89432D9772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

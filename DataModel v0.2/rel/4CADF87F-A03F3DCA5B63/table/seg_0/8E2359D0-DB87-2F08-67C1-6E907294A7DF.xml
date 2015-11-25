@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E2359D0-DB87-2F08-67C1-6E907294A7DF" name="Dim_Outlets">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:42:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Outlet_Key" id="7249D4E4-E79D-B0A8-9045-4B513114DAEB">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:42:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Outlet_ID" id="9449382B-7E86-0182-2342-A5BD1A52237D">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-09 09:31:42 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Outlet_Name" id="B9994599-5675-F93E-EBCD-2DAA218C0F86">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:42:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Current_Address_key" id="DBAC0A1F-6A73-48C9-CACD-E8FCBC55AFB3">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-09 11:12:34 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_key" id="93A86C5D-E218-00B7-66AF-FD663BE77F5A">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-09 11:13:22 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_Name" id="6AE1AE55-B153-CC55-DC63-24C6DA3AF0D2">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-09 11:14:08 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Outlet_Open_Date" id="873B1964-6ABE-A033-577C-40F130277946">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-09 11:17:52 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56DEE08D-50D8-5493-6B2D-B62921DA1222" name="Dim_Outlets_PK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:42:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7249D4E4-E79D-B0A8-9045-4B513114DAEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

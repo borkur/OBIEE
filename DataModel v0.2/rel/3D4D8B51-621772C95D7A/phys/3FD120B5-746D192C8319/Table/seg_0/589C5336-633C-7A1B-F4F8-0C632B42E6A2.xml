@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Suppliers" directorySegmentName="seg_0" id="589C5336-633C-7A1B-F4F8-0C632B42E6A2">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Supplier_Name" id="1D253560-1E5D-E792-FBEF-290692DEFEE0">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Supplier_Since" id="8AD6E40B-5DA8-A539-AFF6-D75739C06A53">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Updated_Date" id="8FBCA972-0594-7778-2753-78720FD26550">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Address_ID" id="A3CB4480-75BD-802D-A0B5-E9455C3A4BA9">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Created_Date" id="B6D80C65-0CE0-E8FB-5911-EBD89656935B">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Supplier_ID" id="BF733B19-774B-7143-D5AE-043C53BB8B2F">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Suppliers_Addresses_FK" id="98701D4E-5874-48E2-383B-79AF0DA6DFCC">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Suppliers_PK" id="0845F85E-D70F-2509-4799-5886F7CBAA69">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

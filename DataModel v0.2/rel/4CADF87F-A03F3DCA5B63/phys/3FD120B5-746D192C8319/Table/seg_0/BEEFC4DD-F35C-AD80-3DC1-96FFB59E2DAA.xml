@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Fact_Order_Line" directorySegmentName="seg_0" id="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Customer_Key" id="16F482F3-F0F1-4B52-1834-D8011D2AA6CA">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 11:08:03 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Staff_Address_Key" id="26B90525-A777-A128-3F7F-E152603AA71B">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Outlet_Address_Key" id="2C3B4665-3008-D267-2DB3-0C42088B458B">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Sales_Order_ID" id="3CFDFD00-EFC6-B485-B685-7E292AB8447B">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:31:39 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Currency_Key" id="452C321E-796A-496E-3D19-FA8390DBDB1F">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:10:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Discount" id="4B9C0C7E-169B-0233-6CA8-0B01CD671FFC">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Address_Key" id="55A7DE64-2E99-65D2-A702-76A207956A93">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Quantity" id="5D6E619F-199C-44E9-D191-45FFE4F153F9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Sales_Order_Line_ID" id="6B97A63F-E9F6-8874-A6C2-12866AB613FB">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:31:39 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="attribute_sale_price" id="7325F964-22A0-A552-961B-AD0F97B7A646">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:26 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sale_order_date_key" id="732921A7-FAEA-680A-9FDB-92E69CF8F2BA">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:13:48 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Cost" id="7A4C5B58-AE14-EC4A-9135-1F4D562F734B">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:09:42 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Product_Key" id="972AD9CF-9F70-F6F4-BAE8-D0DCE93C702F">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 11:07:04 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Staff_Key" id="9C4C01C6-929D-56DF-D07D-860AC00164B0">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 11:08:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Internet_Order_Flag" id="AFFF7824-9A01-6F4E-138C-8ADE2CA45123">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Loyalty_card_flag" id="BBE27159-3D80-72B3-44EA-A5BCC53F5511">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:26 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Orders_Line_Key" id="C448A6D3-93FA-9E9A-B77A-63157D22EA27">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 13:07:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="attribute_cost" id="D59E25AA-9385-5C1A-4A1E-DB68E937E5BA">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:26 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sale_order_time_key" id="D65B8EF4-D947-A68A-213B-92C7EB51BB1A">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 17:20:29 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Sale_Price" id="E1C176CC-A520-1363-ECD2-1B610EF5F887">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Outlet_Key" id="F8FD5FB2-8C2F-3544-04B3-9C12966E0602">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 11:08:27 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOL_Dim_Outlets_FK" id="01E62B28-7DA6-5976-CE0D-352ECEF6CD6F">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 11:08:27 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOL_Dim_Currency_FK" id="1913FFA1-2C80-A98F-3092-F684E56EFAD8">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:10:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOL_CUST_FK" id="5A616B6B-B881-B7BD-9393-7DBC7C1CF9B2">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 11:08:02 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOL_Outlet_Add_FK" id="ADDB2358-1DD8-ADF4-E744-FA2075F40243">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOL_Cust_Add_FK" id="B6215FDC-037F-FC46-9FBA-2920BB9FEFA0">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOL_STF_FK" id="C34F98F1-3AFB-863F-2A40-884DBFBA40B9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 11:08:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOL_Staff_Add_FK" id="D39B1EC9-E503-2167-156F-C5873289C583">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SOL_Dim_Products_FKv2" id="F4AD99D2-F834-C49E-35AC-01654B4DB16A">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 11:07:04 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Fact_Order_Line_PK" id="7F63AF1B-0235-A45C-0BB1-D3CCDD2DCE82">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 13:07:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

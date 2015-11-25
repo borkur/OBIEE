@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Customers" directorySegmentName="seg_0" id="6D6AFAB0-FF61-B13E-7D29-522AC18A126D">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="First_Name" id="1EA54792-E48B-ECB0-6AF8-B1D3498529AD">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Last_Name" id="266ECD9F-C7F0-5EC2-1174-7C43D6821047">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOB" id="28488D97-0380-ECB9-8A8F-6374B0015633">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Updated_Date" id="3A90DB77-14ED-3DA7-117F-F50DFB8491C9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 14:18:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Gender" id="3FCC52CF-210F-1368-AA77-BF452CF05B24">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Initials" id="48D19D7A-D5E4-5F43-7C7F-3CE76DA08343">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_ID" id="5178DE8E-D9C2-84D5-E1C7-BC8340C34910">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Address_ID" id="9942C9E2-8CE3-A0FB-76EA-6A70538FFA69">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Created_Date" id="9F5E141C-D687-C66A-708C-EF492A7EB284">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 14:18:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Ethnicity" id="A942F420-44F9-A679-F16F-D990E7DB1AA6">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 14:18:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Greeting" id="C35EDE6B-6B74-9BEB-B55F-B9B8F5008E51">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Email" id="E250DA66-B5C4-A895-16D1-82EF077CBB56">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Customers_Addresses_FK" id="280DB435-D9EA-A761-2567-D722B211A1D8">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Customers_PK" id="3C0673FA-B9F2-5241-3D4D-E4337ECFA870">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

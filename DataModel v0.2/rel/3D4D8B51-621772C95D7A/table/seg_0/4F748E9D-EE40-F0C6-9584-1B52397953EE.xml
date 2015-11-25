@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F748E9D-EE40-F0C6-9584-1B52397953EE" name="Loyalty_Cards">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:28:59 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>LC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Loyalty_Card_ID" id="F52E1918-9127-5EF0-8198-57F27B04B462">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:29:29 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_ID" id="F5222ECA-3995-3BC7-95F7-2A51DC5913C4">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:24:57 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E249EE02-C6A4-7002-571F-0E8CDB9D379D" referredColumn="5178DE8E-D9C2-84D5-E1C7-BC8340C34910"/>
+</associations>
+</Column>
+<Column name="CardNumber" id="0AD61EBA-9906-8691-DFB4-82E8BFFB1F8F">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-12 08:58:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Card_Expiration_Date" id="38EF14DD-9A2A-5481-93C0-6D4381023334">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-12 08:58:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LC_Card_Expiration_Date</notNullConstraintName>
+</Column>
+<Column name="Created_Date" id="6E135152-B0AA-6998-11CB-46E8652A6B26">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:35 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="3B06D3BB-A0D6-C79C-6B23-D54424A25B87">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:35 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1A9E93E-A4C6-796C-205F-4DA33C2C944F" name="Loyalty_Cards_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:29:29 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F52E1918-9127-5EF0-8198-57F27B04B462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09161398-4236-C563-9E49-D273E461FF75" name="LC_CUST_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:24:57 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5222ECA-3995-3BC7-95F7-2A51DC5913C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Dim_Supplier" directorySegmentName="seg_0" id="D1E96C56-F4AD-D372-07DD-F86F85697AF7">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Current_Address_Key" id="437CEC57-A347-C1E3-8A65-700886B85344">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Supplier_Since" id="C0A739FB-7B8B-72D5-85E2-96AFF68E4397">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Supplier_ID" id="DB87DA91-DE29-263E-7E2B-743EAE2B2280">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Supplier_Key" id="EA83398C-C4A1-011F-6648-CDAFB9ACCC5C">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Supplier_Name" id="FEC58BFE-4848-961F-BC8A-45DFDA709FB7">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Dim_Productsv1_PK" id="1301A3CF-5505-3717-AA42-61CC07570E13">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 08:54:36 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

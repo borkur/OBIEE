@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D6AFAB0-FF61-B13E-7D29-522AC18A126D" name="Customers">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:31:26 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>CUST</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_ID" id="5178DE8E-D9C2-84D5-E1C7-BC8340C34910">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:31:56 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address_ID" id="9942C9E2-8CE3-A0FB-76EA-6A70538FFA69">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:20:56 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59EEA3E6-2785-F2D0-6E85-5B928989EBE1" referredColumn="A3B62745-B463-A397-F3C2-0511E9BD5020"/>
+</associations>
+</Column>
+<Column name="First_Name" id="1EA54792-E48B-ECB0-6AF8-B1D3498529AD">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:55:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Initials" id="48D19D7A-D5E4-5F43-7C7F-3CE76DA08343">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:55:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="266ECD9F-C7F0-5EC2-1174-7C43D6821047">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:55:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Greeting" id="C35EDE6B-6B74-9BEB-B55F-B9B8F5008E51">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:55:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOB" id="28488D97-0380-ECB9-8A8F-6374B0015633">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:55:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="E250DA66-B5C4-A895-16D1-82EF077CBB56">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:56:06 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="3FCC52CF-210F-1368-AA77-BF452CF05B24">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-13 15:10:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_Date" id="9F5E141C-D687-C66A-708C-EF492A7EB284">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="3A90DB77-14ED-3DA7-117F-F50DFB8491C9">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ethnicity" id="A942F420-44F9-A679-F16F-D990E7DB1AA6">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-02 12:10:24 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C0673FA-B9F2-5241-3D4D-E4337ECFA870" name="Customers_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:31:56 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5178DE8E-D9C2-84D5-E1C7-BC8340C34910"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="280DB435-D9EA-A761-2567-D722B211A1D8" name="Customers_Addresses_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:20:56 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9942C9E2-8CE3-A0FB-76EA-6A70538FFA69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

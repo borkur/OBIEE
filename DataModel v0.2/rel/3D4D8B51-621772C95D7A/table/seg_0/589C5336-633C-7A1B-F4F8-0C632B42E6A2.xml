@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="589C5336-633C-7A1B-F4F8-0C632B42E6A2" name="Suppliers">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:33:33 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Supplier_ID" id="BF733B19-774B-7143-D5AE-043C53BB8B2F">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:33:55 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address_ID" id="A3CB4480-75BD-802D-A0B5-E9455C3A4BA9">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:27:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B553180-16A2-7042-9B0F-9C8F6C712571" referredColumn="A3B62745-B463-A397-F3C2-0511E9BD5020"/>
+</associations>
+</Column>
+<Column name="Supplier_Name" id="1D253560-1E5D-E792-FBEF-290692DEFEE0">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-12 11:54:43 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supplier_Since" id="8AD6E40B-5DA8-A539-AFF6-D75739C06A53">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-12 11:54:43 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_Date" id="B6D80C65-0CE0-E8FB-5911-EBD89656935B">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="8FBCA972-0594-7778-2753-78720FD26550">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0845F85E-D70F-2509-4799-5886F7CBAA69" name="Suppliers_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:33:55 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF733B19-774B-7143-D5AE-043C53BB8B2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98701D4E-5874-48E2-383B-79AF0DA6DFCC" name="Suppliers_Addresses_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:27:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3CB4480-75BD-802D-A0B5-E9455C3A4BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

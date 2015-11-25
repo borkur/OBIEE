@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C9DC628-1503-DE88-451A-53946544E900" name="Attribute_Types">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 16:08:28 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>Att_Types</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<propertyMap>
+<property name="DynamicProperty_1" value=""/>
+</propertyMap>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attribute_Types_ID" id="2F10EC92-D0F3-6916-97C2-FCC142B5B5E1">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 16:09:10 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<abbreviation>AttrTypeID</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Att_Types_AttrTypeID</notNullConstraintName>
+<generateConstraintInDDL>NO</generateConstraintInDDL>
+</Column>
+<Column name="Attribute_Type" id="DA6F2D9E-9A72-9839-E804-213378FA0EA9">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 16:09:10 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<abbreviation>AttrType</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Att_Types_AttrType</notNullConstraintName>
+<generateConstraintInDDL>NO</generateConstraintInDDL>
+</Column>
+<Column name="Created_Date" id="2B0A4B72-8193-FEF3-A2FC-CC7E475D5DBE">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:53:24 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="8FF36558-2A7E-F278-56CB-016B11BE0FA0">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:53:24 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F469819F-18DC-F82A-2364-0238339D6E8D" name="Attribute_Types_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 16:09:10 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F10EC92-D0F3-6916-97C2-FCC142B5B5E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8A31E62-7F26-7CD0-C74A-4989A0015FD8" name="Att_Types_AttrType_UN">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-12 08:26:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA6F2D9E-9A72-9839-E804-213378FA0EA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

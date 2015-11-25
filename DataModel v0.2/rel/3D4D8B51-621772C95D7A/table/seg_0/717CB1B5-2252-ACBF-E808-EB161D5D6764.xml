@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="717CB1B5-2252-ACBF-E808-EB161D5D6764" name="Pricing">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:35:23 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pricing_ID" id="CC5CD2C3-96B1-09C1-CBAD-A341C0DC2669">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:36:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_ID" id="332C20DF-6A30-DAF8-64D6-09D2A51316E1">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:36:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69F664B3-BB4D-FCCF-6777-9EE3E09A6E08" referredColumn="62099735-4810-3776-6D2A-559A2C7E421B"/>
+</associations>
+</Column>
+<Column name="Product_ID" id="F703CA4B-4D12-0DAD-97C1-566C7BD2350C">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:36:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0C8E09F-92D2-5AF0-038E-8E282D0BB646" referredColumn="B980EF82-923B-E1BE-1735-06D651CE2621"/>
+</associations>
+</Column>
+<Column name="Cost" id="EE2F4AD5-3459-D9DC-5978-190E73D3CC1B">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:36:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_Price" id="C6E21B4C-955F-819A-3D88-C273ABB772CE">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:36:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78E7464C-707F-8DE1-DC76-E5F284FB463B" name="Pricing_PK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:36:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC5CD2C3-96B1-09C1-CBAD-A341C0DC2669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33C20DAE-9070-92D3-1907-A295856910E5" name="Pricing_Country_FK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:37:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="332C20DF-6A30-DAF8-64D6-09D2A51316E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF3FFEF7-DF99-30BE-D24E-82475B5F59CD" name="Pricing_Products_FK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 12:37:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F703CA4B-4D12-0DAD-97C1-566C7BD2350C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

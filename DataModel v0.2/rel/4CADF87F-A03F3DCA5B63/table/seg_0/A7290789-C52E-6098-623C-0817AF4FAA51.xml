@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7290789-C52E-6098-623C-0817AF4FAA51" name="Dim_Customers">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<typeID>2</typeID>
+<abbreviation>CUST</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_Key" id="583948C1-C8D8-D3D2-2FC4-9B1E66E9B871">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="DD408FB9-71EA-EC77-4BAC-1910CC555D6E">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Initials" id="43990777-784C-9110-ADDC-EC265BBB34F9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="D6347754-1D6C-5BFD-334D-52A0725F279A">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Greeting" id="BBBA8D7B-B717-B2DE-AEAF-198E199A766E">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOB" id="60FFC275-18CC-F247-C5B6-61492D9A38A9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="29AF6FBD-5D04-D6AF-8872-72295CDFAB00">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="9A1A6D5F-0A9B-3B5C-9205-8A72AC72C022">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ethnicity" id="A022CF3E-30D7-10FD-3631-06E3FE2FB58A">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Current_Address_Key" id="4C0D1D94-D963-D511-9F78-9CA6465B0C80">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-09 11:36:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Start_Date" id="BB5170C2-D50F-0917-3DF1-1358F4F0AA04">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4C92D83-FACE-588A-1DC1-C7F6297F095E" name="Dim_Customers_PK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:41:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="583948C1-C8D8-D3D2-2FC4-9B1E66E9B871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

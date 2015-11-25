@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="023EA224-EBF6-4859-7FE3-B3629CF8A61B" name="GCBC_SRC" seqName="seg_0"/>
+   <object objectType="Table" objectID="00E7AA12-FE32-A41C-1FB8-D953E0DED733" name="Addresses" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D345514-141D-1CE8-1C34-30DA8B7DE2EB" name="Product_Types" seqName="seg_0"/>
+   <object objectType="Table" objectID="23C82518-71C5-B319-CF42-6ED0948630C7" name="Product_Category" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C9DC628-1503-DE88-451A-53946544E900" name="Attribute_Types" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A978844-7136-7B6D-8732-A62A28C23390" name="Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="4F748E9D-EE40-F0C6-9584-1B52397953EE" name="Loyalty_Cards" seqName="seg_0"/>
+   <object objectType="Table" objectID="589C5336-633C-7A1B-F4F8-0C632B42E6A2" name="Suppliers" seqName="seg_0"/>
+   <object objectType="Table" objectID="6D6AFAB0-FF61-B13E-7D29-522AC18A126D" name="Customers" seqName="seg_0"/>
+   <object objectType="Table" objectID="717CB1B5-2252-ACBF-E808-EB161D5D6764" name="Pricing" seqName="seg_0"/>
+   <object objectType="Table" objectID="7328D45D-A93C-D342-58C5-9BAC9014DE2F" name="Internet_Order_details" seqName="seg_0"/>
+   <object objectType="Table" objectID="79AF998F-F95A-5F37-3F79-AA2AC6C95504" name="Sales_Order_Line_Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="7B45BAA8-4F38-9897-9040-475CA0C729DE" name="Staff" seqName="seg_0"/>
+   <object objectType="Table" objectID="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" name="Products" seqName="seg_0"/>
+   <object objectType="Table" objectID="9925B354-3DA3-2A9C-DF94-D972E1DB14F5" name="Sales_Order_Line" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE06110C-CF92-F811-D219-78ADD8BAD4B6" name="Supplier_Products" seqName="seg_0"/>
+   <object objectType="Table" objectID="BEEF44B4-4A7F-FA4E-929D-14DBA564DAB0" name="Product_Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="CE7B3855-E356-72B9-0E7A-01A0A4DB3EA1" name="Sales_Orders" seqName="seg_0"/>
+   <object objectType="Table" objectID="E36AF85C-6B4B-4237-229E-57CD1A6E8E49" name="Outlets" seqName="seg_0"/>
+   <object objectType="Table" objectID="EB13E6C4-F4B5-B506-4125-BBE1B5DFA1CA" name="Returns" seqName="seg_0"/>
+   <object objectType="Table" objectID="F79065CC-1BF2-2A87-E140-D68D08C77E85" name="Country" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="19E04DEF-16B5-F014-F0E7-880A73799021" name="PA_ATTR_FK" containerID="BEEF44B4-4A7F-FA4E-929D-14DBA564DAB0" refContainerID="3A978844-7136-7B6D-8732-A62A28C23390" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="22E09071-6594-E3E9-0101-A82E0A0E906A" name="Supplier_Products_Suppliers_FK" containerID="BE06110C-CF92-F811-D219-78ADD8BAD4B6" refContainerID="589C5336-633C-7A1B-F4F8-0C632B42E6A2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="259BA92C-C6B2-EF33-8247-331E0E9AE85E" name="SOLA_ATTR_FK" containerID="79AF998F-F95A-5F37-3F79-AA2AC6C95504" refContainerID="3A978844-7136-7B6D-8732-A62A28C23390" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="26AF97DF-69BE-7706-ACCD-0D394D970D93" name="SO_STF_FK" containerID="CE7B3855-E356-72B9-0E7A-01A0A4DB3EA1" refContainerID="7B45BAA8-4F38-9897-9040-475CA0C729DE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2CF07530-35AA-AF80-2BEC-41F94EC45C5C" name="SOLA_SOL_FK" containerID="79AF998F-F95A-5F37-3F79-AA2AC6C95504" refContainerID="9925B354-3DA3-2A9C-DF94-D972E1DB14F5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2DD1C059-19F9-2E7A-D598-5E6BF95EABD4" name="SO_Outlets_FK" containerID="CE7B3855-E356-72B9-0E7A-01A0A4DB3EA1" refContainerID="E36AF85C-6B4B-4237-229E-57CD1A6E8E49" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2EA6BB1C-43A8-3F2E-6186-C59B0CA44303" name="SO_LC_FK" containerID="CE7B3855-E356-72B9-0E7A-01A0A4DB3EA1" refContainerID="4F748E9D-EE40-F0C6-9584-1B52397953EE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="306A3E76-5EFE-290B-AF87-2F699030F62B" name="Products_PTY_FK" containerID="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" refContainerID="1D345514-141D-1CE8-1C34-30DA8B7DE2EB" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3BF0DDB3-11DA-0854-1AA4-8B76F5227A90" name="SOL_Pricing_FK" containerID="9925B354-3DA3-2A9C-DF94-D972E1DB14F5" refContainerID="717CB1B5-2252-ACBF-E808-EB161D5D6764" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="416F2FB6-6CBA-4941-0821-CF982949735F" name="Staff_MGR_FK" containerID="7B45BAA8-4F38-9897-9040-475CA0C729DE" refContainerID="7B45BAA8-4F38-9897-9040-475CA0C729DE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="42C0DEAF-33D1-F56B-E6F8-57C04CF24EA0" name="PA_Products_FK" containerID="BEEF44B4-4A7F-FA4E-929D-14DBA564DAB0" refContainerID="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5756FDC5-23B6-6084-39AA-0A3B0D8BE724" name="Outlets_Addresses_FK" containerID="E36AF85C-6B4B-4237-229E-57CD1A6E8E49" refContainerID="00E7AA12-FE32-A41C-1FB8-D953E0DED733" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="59EEA3E6-2785-F2D0-6E85-5B928989EBE1" name="Customers_Addresses_FK" containerID="6D6AFAB0-FF61-B13E-7D29-522AC18A126D" refContainerID="00E7AA12-FE32-A41C-1FB8-D953E0DED733" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5AEC01D0-1744-61E7-2F3A-862BC1F95C6D" name="SOL_SO_FK" containerID="9925B354-3DA3-2A9C-DF94-D972E1DB14F5" refContainerID="CE7B3855-E356-72B9-0E7A-01A0A4DB3EA1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="69F664B3-BB4D-FCCF-6777-9EE3E09A6E08" name="Pricing_Country_FK" containerID="717CB1B5-2252-ACBF-E808-EB161D5D6764" refContainerID="F79065CC-1BF2-2A87-E140-D68D08C77E85" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6AB7CB02-895E-8885-1CC6-D459BA282829" name="Staff_Addresses_FK" containerID="7B45BAA8-4F38-9897-9040-475CA0C729DE" refContainerID="00E7AA12-FE32-A41C-1FB8-D953E0DED733" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6B553180-16A2-7042-9B0F-9C8F6C712571" name="Suppliers_Addresses_FK" containerID="589C5336-633C-7A1B-F4F8-0C632B42E6A2" refContainerID="00E7AA12-FE32-A41C-1FB8-D953E0DED733" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="73C57A4B-3ED8-5F47-6E93-8CB0EE824266" name="Supplier_Products_Products_FK" containerID="BE06110C-CF92-F811-D219-78ADD8BAD4B6" refContainerID="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="836D95E4-66FF-F81E-CC62-61F0AD8F70E8" name="IOD_SO_FK" containerID="7328D45D-A93C-D342-58C5-9BAC9014DE2F" refContainerID="CE7B3855-E356-72B9-0E7A-01A0A4DB3EA1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A4171240-D106-792E-F071-86BDD9EA3348" name="IOD_CUST_FK" containerID="7328D45D-A93C-D342-58C5-9BAC9014DE2F" refContainerID="6D6AFAB0-FF61-B13E-7D29-522AC18A126D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A7B4F727-84BC-C653-F3E9-B98DE271EB26" name="SOL_Products_FK" containerID="9925B354-3DA3-2A9C-DF94-D972E1DB14F5" refContainerID="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A9A01620-E426-1189-F4A0-2E8F4D93DC1C" name="ADD_Country_FK" containerID="00E7AA12-FE32-A41C-1FB8-D953E0DED733" refContainerID="F79065CC-1BF2-2A87-E140-D68D08C77E85" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B4875DC2-7B0D-6A45-B870-CE545F0D8B06" name="ATTR_Attribute_Types_FK" containerID="3A978844-7136-7B6D-8732-A62A28C23390" refContainerID="2C9DC628-1503-DE88-451A-53946544E900" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B5B8A8E7-E9D7-B66E-F523-B3F10D775E4D" name="Products_Prod_Cat_FK" containerID="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" refContainerID="23C82518-71C5-B319-CF42-6ED0948630C7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DA19D0FF-4F46-4A7D-B7A4-8E312B5E4912" name="SOLA_PA_FK" containerID="79AF998F-F95A-5F37-3F79-AA2AC6C95504" refContainerID="BEEF44B4-4A7F-FA4E-929D-14DBA564DAB0" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DD945CA6-1CB2-8C3F-DA5C-F4745EE1646C" name="Outlets_Staff_FK" containerID="E36AF85C-6B4B-4237-229E-57CD1A6E8E49" refContainerID="7B45BAA8-4F38-9897-9040-475CA0C729DE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E0C8E09F-92D2-5AF0-038E-8E282D0BB646" name="Pricing_Products_FK" containerID="717CB1B5-2252-ACBF-E808-EB161D5D6764" refContainerID="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E249EE02-C6A4-7002-571F-0E8CDB9D379D" name="LC_CUST_FK" containerID="4F748E9D-EE40-F0C6-9584-1B52397953EE" refContainerID="6D6AFAB0-FF61-B13E-7D29-522AC18A126D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EFFC410E-B86F-FA78-5115-0633B2BE73B4" name="Returns_Invoice_Line_Items_FK" containerID="EB13E6C4-F4B5-B506-4125-BBE1B5DFA1CA" refContainerID="9925B354-3DA3-2A9C-DF94-D972E1DB14F5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

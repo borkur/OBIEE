@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="5E645E1C-B979-3BF7-7116-1630A58EBE87" name="GCBC_SALES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5823D581-261B-B5AD-8076-560ECFEED7BE" name="Dim_Staff" seqName="seg_0"/>
+   <object objectType="Table" objectID="606D429B-4D51-3F0F-CFBC-E0582FF25684" name="Dim_Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="770959F5-4E98-BA1E-5BB6-90238CE9218C" name="Dim_Currency" seqName="seg_0"/>
+   <object objectType="Table" objectID="8E2359D0-DB87-2F08-67C1-6E907294A7DF" name="Dim_Outlets" seqName="seg_0"/>
+   <object objectType="Table" objectID="A7290789-C52E-6098-623C-0817AF4FAA51" name="Dim_Customers" seqName="seg_0"/>
+   <object objectType="Table" objectID="AC3918D5-474D-02A0-DAEB-D6F82A85E23B" name="Dim_Address" seqName="seg_0"/>
+   <object objectType="Table" objectID="BEE50796-D3C1-02B1-57A9-50421BCBEC46" name="Dim_Products" seqName="seg_0"/>
+   <object objectType="Table" objectID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" name="Fact_Order_Line" seqName="seg_0"/>
+   <object objectType="Table" objectID="D1E96C56-F4AD-D372-07DD-F86F85697AF7" name="Dim_Supplier" seqName="seg_0"/>
+   <object objectType="Table" objectID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" name="Fact_Order_Line_Att" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="115FE4ED-D1A6-64E7-25B8-ED0D6354CC84" name="SOLA_ATTR_FK" containerID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" refContainerID="606D429B-4D51-3F0F-CFBC-E0582FF25684" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="253364BA-ADC1-CFA2-3A42-FEDD850E84C0" name="SOLA_STF_FK" containerID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" refContainerID="5823D581-261B-B5AD-8076-560ECFEED7BE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="353BA104-0EE6-41AF-305A-FC71C9632666" name="SOL_Dim_Currency_FK" containerID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" refContainerID="770959F5-4E98-BA1E-5BB6-90238CE9218C" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="39AB1CCD-59F4-EACB-8A4F-3FDF726F81C2" name="SOLA_Dim_Products_FK" containerID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" refContainerID="BEE50796-D3C1-02B1-57A9-50421BCBEC46" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3A2AD88E-F83B-B2C7-9652-7F429FB9A217" name="SOL_Outlet_Add_FK" containerID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" refContainerID="AC3918D5-474D-02A0-DAEB-D6F82A85E23B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="49FE310A-4CF7-9A42-1586-9DFA828FD17F" name="SOLA_Dim_Address_FK" containerID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" refContainerID="AC3918D5-474D-02A0-DAEB-D6F82A85E23B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4C9DB05E-9EAF-B42C-7B0E-EF8EE888699B" name="SOL_Dim_Products_FKv2" containerID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" refContainerID="BEE50796-D3C1-02B1-57A9-50421BCBEC46" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="64671ACC-4F8F-ADE3-AADF-E37F328D301F" name="SOL_Cust_Add_FK" containerID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" refContainerID="AC3918D5-474D-02A0-DAEB-D6F82A85E23B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6C3BD2EF-13F4-51C8-A11D-1D436A18C4C6" name="SOLA_Dim_Address_FKv3" containerID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" refContainerID="AC3918D5-474D-02A0-DAEB-D6F82A85E23B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="764FC237-D012-057D-30AC-07CA09BDF23F" name="SOL_Staff_Add_FK" containerID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" refContainerID="AC3918D5-474D-02A0-DAEB-D6F82A85E23B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A5015BC6-BB42-429D-7346-46BC4334312F" name="SOL_STF_FK" containerID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" refContainerID="5823D581-261B-B5AD-8076-560ECFEED7BE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B6BFCF1E-8C6C-9487-D206-A05B5F7B00B8" name="SOLA_CUST_FK" containerID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" refContainerID="A7290789-C52E-6098-623C-0817AF4FAA51" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BB2AD16B-1BEE-A301-3120-38AFF706EC79" name="SOLA_Dim_Outlets_FK" containerID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" refContainerID="8E2359D0-DB87-2F08-67C1-6E907294A7DF" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DF4610FF-1E01-C7C8-4EDD-118C3721ED7D" name="SOLA_Dim_Address_FKv1" containerID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" refContainerID="AC3918D5-474D-02A0-DAEB-D6F82A85E23B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F322C1E5-7643-EF6C-7464-914984794557" name="SOL_CUST_FK" containerID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" refContainerID="A7290789-C52E-6098-623C-0817AF4FAA51" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F7DB455D-E844-F18B-0B2A-0EE499616B47" name="SOL_Dim_Outlets_FK" containerID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" refContainerID="8E2359D0-DB87-2F08-67C1-6E907294A7DF" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

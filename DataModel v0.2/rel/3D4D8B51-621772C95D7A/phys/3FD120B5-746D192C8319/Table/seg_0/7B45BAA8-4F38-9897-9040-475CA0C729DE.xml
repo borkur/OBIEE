@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Staff" directorySegmentName="seg_0" id="7B45BAA8-4F38-9897-9040-475CA0C729DE">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Gender" id="1C7FA506-E2A8-9364-67F2-B6458BAB47D8">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Staff_ID" id="1C8D9DD9-2126-8EF0-06A7-1515C54A4370">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Address_ID" id="3EC5CECB-F0CB-7804-2941-318DB3216209">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MGR_ID" id="55445B98-0646-E6E7-69ED-FAC2A8B97F8D">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Initials" id="6357C9F7-3367-9856-8999-460EDBB1B8A2">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Last_Name" id="6CFE5F24-94BE-87A9-2BB3-6795883CF5C9">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="8936B335-9171-DD6B-510C-6611DEF8BE2E">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Outlet_ID" id="A517EFCD-6EE5-CBA8-E2A9-E293C9EBF85A">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="First_Name" id="AAA5C205-7E31-1D98-958F-F16672F5F501">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Ethnicity" id="B3267B26-1E20-4285-0D07-F5617A90DFEE">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Created_Date" id="BF2BA998-C54B-A404-CBE6-E77DD4D24667">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOB" id="C2850B10-E6F0-D903-8BFC-F4F27083FD18">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Updated_Date" id="F456B650-2AC8-D9D4-E30E-1AD7056D2342">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Staff_MGR_FK" id="2D5451AF-399F-0A57-DACB-C88EFFD5C2BE">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Staff_Addresses_FK" id="7A08D040-3705-F9FC-2E83-CE4993E50F17">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Staff_PK" id="ADE5B006-3B2A-1A5B-6AA1-30CFA9F46551">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

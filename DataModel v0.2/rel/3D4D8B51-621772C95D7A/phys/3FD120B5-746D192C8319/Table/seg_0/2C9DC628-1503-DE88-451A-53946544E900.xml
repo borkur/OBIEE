@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Attribute_Types" directorySegmentName="seg_0" id="2C9DC628-1503-DE88-451A-53946544E900">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Created_Date" id="2B0A4B72-8193-FEF3-A2FC-CC7E475D5DBE">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-02 09:12:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_Types_ID" id="2F10EC92-D0F3-6916-97C2-FCC142B5B5E1">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+<ColumnProxy name="Updated_Date" id="8FF36558-2A7E-F278-56CB-016B11BE0FA0">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-02 09:12:16 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_Type" id="DA6F2D9E-9A72-9839-E804-213378FA0EA9">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Attribute_Types_PK" id="F469819F-18DC-F82A-2364-0238339D6E8D">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Att_Types_AttrType_UN" id="D8A31E62-7F26-7CD0-C74A-4989A0015FD8">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

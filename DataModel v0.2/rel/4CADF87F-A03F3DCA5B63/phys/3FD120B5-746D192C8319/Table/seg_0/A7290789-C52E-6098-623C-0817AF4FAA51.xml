@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Dim_Customers" directorySegmentName="seg_0" id="A7290789-C52E-6098-623C-0817AF4FAA51">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Email" id="29AF6FBD-5D04-D6AF-8872-72295CDFAB00">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Initials" id="43990777-784C-9110-ADDC-EC265BBB34F9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Current_Address_Key" id="4C0D1D94-D963-D511-9F78-9CA6465B0C80">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Key" id="583948C1-C8D8-D3D2-2FC4-9B1E66E9B871">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOB" id="60FFC275-18CC-F247-C5B6-61492D9A38A9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Gender" id="9A1A6D5F-0A9B-3B5C-9205-8A72AC72C022">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Ethnicity" id="A022CF3E-30D7-10FD-3631-06E3FE2FB58A">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Start_Date" id="BB5170C2-D50F-0917-3DF1-1358F4F0AA04">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Greeting" id="BBBA8D7B-B717-B2DE-AEAF-198E199A766E">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Last_Name" id="D6347754-1D6C-5BFD-334D-52A0725F279A">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="First_Name" id="DD408FB9-71EA-EC77-4BAC-1910CC555D6E">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Dim_Customers_PK" id="D4C92D83-FACE-588A-1DC1-C7F6297F095E">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

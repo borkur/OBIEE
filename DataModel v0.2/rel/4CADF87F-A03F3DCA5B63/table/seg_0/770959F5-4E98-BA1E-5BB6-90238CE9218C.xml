@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="770959F5-4E98-BA1E-5BB6-90238CE9218C" name="Dim_Currency">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Currency_Key" id="6F2F0157-00AD-49B4-1876-81A9BD3647C7">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Currency_CODE" id="F2931771-F47D-4B40-6317-53180839FA61">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Currency_Name" id="98F8DE0E-B6C3-A398-3BFD-691E341E5FEC">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_ID" id="6A058033-EE03-103B-EF3E-D86E6ED4571F">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3CEFCE1-E34D-6D65-0FC4-3AA24ED3796A" name="Dim_Supplierv1_PK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F2F0157-00AD-49B4-1876-81A9BD3647C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
