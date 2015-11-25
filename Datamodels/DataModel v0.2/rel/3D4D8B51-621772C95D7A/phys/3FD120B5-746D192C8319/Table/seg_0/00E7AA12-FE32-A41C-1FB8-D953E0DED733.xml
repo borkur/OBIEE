@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Addresses" directorySegmentName="seg_0" id="00E7AA12-FE32-A41C-1FB8-D953E0DED733">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Admin_Code3" id="0AF0FDF0-A013-5F82-8107-6C400D741C9F">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:54:20 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Admin_Code1" id="183C7172-26CD-DCD4-6820-302DA49A15E0">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Longitude" id="1D0C3F53-AA17-FBBE-1E96-EC04B6FEAA3A">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:55:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Admin_Name1" id="608B85AF-79C9-2B48-D0ED-16C71FD19E39">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Admin_Name2" id="7B564153-56FF-FDFE-30AD-2049E69B641C">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Accuracy" id="9BB9D296-53B0-D371-2A9D-6E31A27868EB">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:55:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Latitude" id="9E988273-21E6-3274-428B-0AC86CEA59A8">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:54:20 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Address_ID" id="A3B62745-B463-A397-F3C2-0511E9BD5020">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Admin_Name3" id="AB3885F4-C4DE-60D4-C4D4-819ED829C421">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:54:20 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Country_ID" id="B95F996E-05A9-00B3-32C6-D9C6593E10D1">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 14:01:28 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Place_Name" id="D429849A-6510-6F9F-B0EC-96A263FD208D">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Postal_code" id="D5893D2E-F9C2-79FA-DC8F-022DAE28A0E3">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Admin_Code2" id="DB8EC1CF-2163-A9B2-55F5-5DA64B319E01">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ADD_Country_FK" id="13D254F1-CADC-6F74-18D0-F52F49177E24">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 14:01:28 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Addresses_PK" id="620C8839-7430-A4F7-2DA6-879E38A0567E">
+<createdBy>Adam</createdBy>
+<createdTime>2015-05-18 09:04:19 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

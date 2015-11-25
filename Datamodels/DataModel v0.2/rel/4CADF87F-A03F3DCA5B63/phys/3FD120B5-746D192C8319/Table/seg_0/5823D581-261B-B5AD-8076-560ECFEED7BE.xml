@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Dim_Staff" directorySegmentName="seg_0" id="5823D581-261B-B5AD-8076-560ECFEED7BE">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Outlet_Key" id="12C664C8-FF9B-8EB9-24D9-E907409A1E38">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:26 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Staff_Key" id="22819AD7-F04B-BC34-D98E-D647718BF007">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Manager_ID" id="32824E2B-40EE-82F6-FCD4-CB08A54D28C0">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:26 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOB" id="4F447413-9FBC-437B-6A72-33071B497367">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Gender" id="54C2696E-BB49-A899-B700-05DE61B5134B">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="First_Name" id="87FF0028-1E91-14D6-5617-295970EC13A9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Staff_Start_Date" id="8C2132BE-E2B2-A36E-6F70-1489C833BB53">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Email" id="AF277F8F-778C-B02E-1D33-906A12D4A6A6">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Initials" id="CD46E066-1F4C-F93F-F0A1-CF22B4A67F01">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Last_Name" id="EC32825C-772A-E956-9DC9-D300A51702E2">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Staff_ID" id="F18B3C08-E081-D672-40CB-2E0BCDA0194B">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:26 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Current_Address_Key" id="F36E7520-688E-47B8-A945-252C481A2D56">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:14 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Ethnicity" id="FD102738-1655-9E4D-D45A-8878457197CB">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Dim_Staff_PK" id="DBD76BAD-3D39-743F-B7C3-864210077507">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:44:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

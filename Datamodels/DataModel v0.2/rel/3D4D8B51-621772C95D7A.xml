@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="3NF" id="3D4D8B51-C70B-D04E-A8BC-621772C95D7A" mainViewID="83F9B9DA-27FA-F522-40F6-4418A6603A68">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 10:28:59 UTC</createdTime>
+<ownerDesignName>DataModel v0.1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+</relationalModel>

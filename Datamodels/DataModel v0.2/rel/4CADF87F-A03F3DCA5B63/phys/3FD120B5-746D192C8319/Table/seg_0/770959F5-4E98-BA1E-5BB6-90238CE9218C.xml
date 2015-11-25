@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Dim_Currency" directorySegmentName="seg_0" id="770959F5-4E98-BA1E-5BB6-90238CE9218C">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Country_ID" id="6A058033-EE03-103B-EF3E-D86E6ED4571F">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Currency_Key" id="6F2F0157-00AD-49B4-1876-81A9BD3647C7">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Currency_Name" id="98F8DE0E-B6C3-A398-3BFD-691E341E5FEC">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Currency_CODE" id="F2931771-F47D-4B40-6317-53180839FA61">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Dim_Supplierv1_PK" id="C3CEFCE1-E34D-6D65-0FC4-3AA24ED3796A">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-18 10:05:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5823D581-261B-B5AD-8076-560ECFEED7BE" name="Dim_Staff">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<typeID>2</typeID>
+<abbreviation>STF</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Staff_Key" id="22819AD7-F04B-BC34-D98E-D647718BF007">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_ID" id="F18B3C08-E081-D672-40CB-2E0BCDA0194B">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-15 15:34:22 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="87FF0028-1E91-14D6-5617-295970EC13A9">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Initials" id="CD46E066-1F4C-F93F-F0A1-CF22B4A67F01">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="EC32825C-772A-E956-9DC9-D300A51702E2">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOB" id="4F447413-9FBC-437B-6A72-33071B497367">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="54C2696E-BB49-A899-B700-05DE61B5134B">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="AF277F8F-778C-B02E-1D33-906A12D4A6A6">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<comment>This should perhaps be replaced by an LDAP attributes.</comment>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_ID" id="32824E2B-40EE-82F6-FCD4-CB08A54D28C0">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-15 15:34:22 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Outlet_Key" id="12C664C8-FF9B-8EB9-24D9-E907409A1E38">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-15 15:34:22 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ethnicity" id="FD102738-1655-9E4D-D45A-8878457197CB">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Current_Address_Key" id="F36E7520-688E-47B8-A945-252C481A2D56">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-09 11:33:52 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_Start_Date" id="8C2132BE-E2B2-A36E-6F70-1489C833BB53">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-09 11:32:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBD76BAD-3D39-743F-B7C3-864210077507" name="Dim_Staff_PK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:39:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22819AD7-F04B-BC34-D98E-D647718BF007"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

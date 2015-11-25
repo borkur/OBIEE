@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Dim_Attributes" directorySegmentName="seg_0" id="606D429B-4D51-3F0F-CFBC-E0582FF25684">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Attribute_Type_ID" id="0F324D1E-4463-5564-7299-BE56A8F29D76">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_Name" id="39E54896-89BF-28D2-F31D-DDDA260046E8">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_ID" id="4E1DCD06-DD22-45FB-C352-71A6B6698D6F">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_Type_Desc" id="9D2105BC-8371-07BA-2DA5-31C237E993BB">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:49:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_Key" id="F182B780-AB19-CF89-ED7B-FCCB02CE40F2">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:47:43 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Attributes_PK" id="F063A616-807B-49D0-F385-52F4A535BED1">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 18:39:44 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

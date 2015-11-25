@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00E7AA12-FE32-A41C-1FB8-D953E0DED733" name="Addresses">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:06:27 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>ADD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Address_ID" id="A3B62745-B463-A397-F3C2-0511E9BD5020">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:20:21 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postal_code" id="D5893D2E-F9C2-79FA-DC8F-022DAE28A0E3">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:34:43 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Place_Name" id="D429849A-6510-6F9F-B0EC-96A263FD208D">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:34:43 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>180</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_Name1" id="608B85AF-79C9-2B48-D0ED-16C71FD19E39">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:34:43 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_Code1" id="183C7172-26CD-DCD4-6820-302DA49A15E0">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:34:43 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_Name2" id="7B564153-56FF-FDFE-30AD-2049E69B641C">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:45:56 UTC</createdTime>
+<comment>Integrity constraint on ZIP is hard, unless we know which country we are in. Or we have a list of all known ZIPs. Reg_exp could perhaps work or a UDF trigger check.</comment>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_Code2" id="DB8EC1CF-2163-A9B2-55F5-5DA64B319E01">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-12 09:10:22 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_Name3" id="AB3885F4-C4DE-60D4-C4D4-819ED829C421">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:54:20 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_Code3" id="0AF0FDF0-A013-5F82-8107-6C400D741C9F">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:54:20 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Latitude" id="9E988273-21E6-3274-428B-0AC86CEA59A8">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:54:20 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Longitude" id="1D0C3F53-AA17-FBBE-1E96-EC04B6FEAA3A">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:55:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Accuracy" id="9BB9D296-53B0-D371-2A9D-6E31A27868EB">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:55:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_ID" id="B95F996E-05A9-00B3-32C6-D9C6593E10D1">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 14:01:28 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9A01620-E426-1189-F4A0-2E8F4D93DC1C" referredColumn="62099735-4810-3776-6D2A-559A2C7E421B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="620C8839-7430-A4F7-2DA6-879E38A0567E" name="Addresses_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:20:21 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B62745-B463-A397-F3C2-0511E9BD5020"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13D254F1-CADC-6F74-18D0-F52F49177E24" name="ADD_Country_FK">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 14:01:28 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B95F996E-05A9-00B3-32C6-D9C6593E10D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

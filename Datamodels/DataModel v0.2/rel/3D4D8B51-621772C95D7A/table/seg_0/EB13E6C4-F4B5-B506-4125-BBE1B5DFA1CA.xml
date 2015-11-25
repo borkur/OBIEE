@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB13E6C4-F4B5-B506-4125-BBE1B5DFA1CA" name="Returns">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:29:50 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Return_id" id="9700E626-811E-3D22-2656-AD9D127356A5">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Invoice_Line_Item_ID" id="F82A7D7C-1957-F518-0B14-9334F8BA69B1">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:52:12 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<abbreviation>ILI_ID</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFFC410E-B86F-FA78-5115-0633B2BE73B4" referredColumn="8C6BC071-9174-7EF2-F6B1-EFAEDCFD01CF"/>
+</associations>
+</Column>
+<Column name="Return_Date" id="5F29BDDD-9698-8B61-2896-223CBE3CCA6C">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-12 07:49:34 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Return_Comment" id="E533A297-8468-DF4F-A4D6-5884CC9FAEAD">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-12 07:49:34 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_Date" id="70AB64DA-8406-E416-EB06-5AB43A64442D">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:53:37 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="ECC60A8C-7228-8743-138C-675C4C4BD3FF">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:53:37 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4870994E-E1B6-B462-F450-1309022E70B8" name="Returns_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9700E626-811E-3D22-2656-AD9D127356A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F37470D-BBFE-0A67-3EB8-9E6DB92140E4" name="Returns_Invoice_Line_Items_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:52:12 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F82A7D7C-1957-F518-0B14-9334F8BA69B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

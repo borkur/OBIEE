@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A978844-7136-7B6D-8732-A62A28C23390" name="Attributes">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:16:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>ATTR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attribute_ID" id="FB861DEC-EB92-52D1-D8BE-979CE2A3A8F0">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:19:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_Name" id="4B6307B0-0AE6-C1CA-3E48-EF5D060638CB">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:19:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_Type_ID" id="905B30ED-9891-1E73-7269-F5311040C6CB">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:19:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4875DC2-7B0D-6A45-B870-CE545F0D8B06" referredColumn="2F10EC92-D0F3-6916-97C2-FCC142B5B5E1"/>
+</associations>
+</Column>
+<Column name="Attribute_Price_Modifier" id="05D0A8BB-DE81-7652-8799-C79618307428">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-11 15:17:26 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_Date" id="BAAFE871-96C2-32D3-A9E2-A1D71CA44F01">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-04 11:59:49 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="DC14D15C-8F2A-9EDD-F5AC-2CFB327CEF21">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-04 11:59:49 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB882B34-50DF-4D49-2DA4-1602EB6CD8CF" name="Attributes_PK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:19:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB861DEC-EB92-52D1-D8BE-979CE2A3A8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B6D5AE9-44EA-988F-D4FA-91D36F5F2F33" name="ATTR_Attribute_Types_FK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:50:00 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="905B30ED-9891-1E73-7269-F5311040C6CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

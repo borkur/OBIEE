@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="00E7AA12-FE32-A41C-1FB8-D953E0DED733" name="Addresses" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D345514-141D-1CE8-1C34-30DA8B7DE2EB" name="Product_Types" seqName="seg_0"/>
+   <object objectType="Table" objectID="23C82518-71C5-B319-CF42-6ED0948630C7" name="Product_Category" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C9DC628-1503-DE88-451A-53946544E900" name="Attribute_Types" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A978844-7136-7B6D-8732-A62A28C23390" name="Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="4F748E9D-EE40-F0C6-9584-1B52397953EE" name="Loyalty_Cards" seqName="seg_0"/>
+   <object objectType="Table" objectID="589C5336-633C-7A1B-F4F8-0C632B42E6A2" name="Suppliers" seqName="seg_0"/>
+   <object objectType="Table" objectID="6D6AFAB0-FF61-B13E-7D29-522AC18A126D" name="Customers" seqName="seg_0"/>
+   <object objectType="Table" objectID="717CB1B5-2252-ACBF-E808-EB161D5D6764" name="Pricing" seqName="seg_0"/>
+   <object objectType="Table" objectID="7328D45D-A93C-D342-58C5-9BAC9014DE2F" name="Internet_Order_details" seqName="seg_0"/>
+   <object objectType="Table" objectID="79AF998F-F95A-5F37-3F79-AA2AC6C95504" name="Sales_Order_Line_Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="7B45BAA8-4F38-9897-9040-475CA0C729DE" name="Staff" seqName="seg_0"/>
+   <object objectType="Table" objectID="7DDBA3C4-6D87-9726-BAED-4AFB9E4DE0B4" name="Products" seqName="seg_0"/>
+   <object objectType="Table" objectID="9925B354-3DA3-2A9C-DF94-D972E1DB14F5" name="Sales_Order_Line" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE06110C-CF92-F811-D219-78ADD8BAD4B6" name="Supplier_Products" seqName="seg_0"/>
+   <object objectType="Table" objectID="BEEF44B4-4A7F-FA4E-929D-14DBA564DAB0" name="Product_Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="CE7B3855-E356-72B9-0E7A-01A0A4DB3EA1" name="Sales_Orders" seqName="seg_0"/>
+   <object objectType="Table" objectID="E36AF85C-6B4B-4237-229E-57CD1A6E8E49" name="Outlets" seqName="seg_0"/>
+   <object objectType="Table" objectID="EB13E6C4-F4B5-B506-4125-BBE1B5DFA1CA" name="Returns" seqName="seg_0"/>
+   <object objectType="Table" objectID="F79065CC-1BF2-2A87-E140-D68D08C77E85" name="Country" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>

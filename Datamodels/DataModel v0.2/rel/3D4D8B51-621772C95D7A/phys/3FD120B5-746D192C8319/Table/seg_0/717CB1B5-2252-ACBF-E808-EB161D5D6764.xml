@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Pricing" directorySegmentName="seg_0" id="717CB1B5-2252-ACBF-E808-EB161D5D6764">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Country_ID" id="332C20DF-6A30-DAF8-64D6-09D2A51316E1">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Sale_Price" id="C6E21B4C-955F-819A-3D88-C273ABB772CE">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Pricing_ID" id="CC5CD2C3-96B1-09C1-CBAD-A341C0DC2669">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Cost" id="EE2F4AD5-3459-D9DC-5978-190E73D3CC1B">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Product_ID" id="F703CA4B-4D12-0DAD-97C1-566C7BD2350C">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pricing_Country_FK" id="33C20DAE-9070-92D3-1907-A295856910E5">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pricing_Products_FK" id="FF3FFEF7-DF99-30BE-D24E-82475B5F59CD">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Pricing_PK" id="78E7464C-707F-8DE1-DC76-E5F284FB463B">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE7B3855-E356-72B9-0E7A-01A0A4DB3EA1" name="Sales_Orders">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:28:08 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>SO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sales_Order_ID" id="37F5A1FB-7786-53D6-C798-FE2D8D86DE6D">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:28:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_ID" id="F4BECA7E-7438-3DD2-B3F6-24071CBCEDE8">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:19:33 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26AF97DF-69BE-7706-ACCD-0D394D970D93" referredColumn="1C8D9DD9-2126-8EF0-06A7-1515C54A4370"/>
+</associations>
+</Column>
+<Column name="Loyalty_Card_ID" id="61CA42CC-BAA5-5859-8704-4B5DC1E2E943">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 14:17:59 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EA6BB1C-43A8-3F2E-6186-C59B0CA44303" referredColumn="F52E1918-9127-5EF0-8198-57F27B04B462"/>
+</associations>
+</Column>
+<Column name="Outlet_ID" id="8BB49E88-AAC9-8F41-6EEB-96184A029318">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 14:23:10 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DD1C059-19F9-2E7A-D598-5E6BF95EABD4" referredColumn="A7BFA1C3-718A-72D6-0592-B9A1F766C5F3"/>
+</associations>
+</Column>
+<Column name="Sales_Order_Date" id="3D6E1178-EC2B-BA8E-6C3F-5C50E2B9AAF9">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:59:09 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_Order_Time" id="663ECC35-6C6A-76D5-22FE-3A5E3C599978">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-05 09:54:48 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Created_Date" id="B4B98826-BA45-1474-7333-F2295BFFE760">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:54:02 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="FA38484D-1E57-18DB-EBC6-5B34791EFE78">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:54:02 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CCB8356-F7F8-7E11-2918-733717D43416" name="Sales_Order_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:28:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37F5A1FB-7786-53D6-C798-FE2D8D86DE6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E4DBC27-7213-67E7-1FCF-C9EC4D4CB3EC" name="SO_STF_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:19:33 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4BECA7E-7438-3DD2-B3F6-24071CBCEDE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19CB024D-184A-E20D-5304-637627E3F068" name="SO_LC_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 14:17:59 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61CA42CC-BAA5-5859-8704-4B5DC1E2E943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AB6239D-80B4-ED78-F323-DAABF2F07655" name="SO_Outlets_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 14:23:10 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB49E88-AAC9-8F41-6EEB-96184A029318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

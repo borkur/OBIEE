@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="GCBC_SALES" directorySegmentName="seg_0" id="5E645E1C-B979-3BF7-7116-1630A58EBE87">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 16:53:58 UTC</createdTime>
+<ownerDesignName>DataModel v0.1_mod</ownerDesignName>
+</SchemaObject>

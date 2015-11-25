@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEE50796-D3C1-02B1-57A9-50421BCBEC46" name="Dim_Products">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:36:32 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_Key" id="D9EBDC43-2284-31B7-1F93-908FFDAFED77">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 10:03:39 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_ID" id="2EC0F87B-813B-DF47-9F42-A85AD4BB4C14">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-15 15:32:34 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Name" id="2BD2F640-F265-2292-12F7-B0C09D01DE38">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:36:32 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Type_ID" id="3771C81C-449C-A2C7-4A56-09A777E344EB">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-15 15:32:34 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Type" id="E4E27C4D-5D5C-BADB-4703-A018312C5543">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:36:32 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Category_ID" id="C44EB073-A908-15E6-E51E-A419D3BB5C4E">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-15 15:32:34 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Category" id="6F8D218F-606A-CD14-5D4D-BD3DC2C7EC2C">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-15 15:32:34 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supplier_key" id="98BB2D06-6F0F-A061-5B2F-442BAB691D26">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 09:53:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_Created_Date" id="2D82F142-6969-74E7-692C-5EC0E1C78C50">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-16 09:50:29 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C97E7055-1FE8-BFCC-F768-939CB5196E0A" name="Dim_Products_PK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 16:36:32 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9EBDC43-2284-31B7-1F93-908FFDAFED77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

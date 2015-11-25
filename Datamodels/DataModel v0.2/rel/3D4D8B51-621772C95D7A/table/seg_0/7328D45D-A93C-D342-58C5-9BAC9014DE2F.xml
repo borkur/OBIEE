@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7328D45D-A93C-D342-58C5-9BAC9014DE2F" name="Internet_Order_details">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:54:34 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>IOD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Internet_Order_details_ID" id="235F10A2-4EEC-EF69-C95B-52418C702C06">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:58:48 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<abbreviation>IOD_ID</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_IOD_IOD_ID</notNullConstraintName>
+</Column>
+<Column name="Created_Date" id="48A6D743-67BF-A61E-C0BB-0155F9CBD024">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:27 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="CF3EDEDE-AF33-A88A-8022-8F72FCCA2BAC">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:27 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_ID" id="21C38032-B5DA-2C92-DD6E-3D96D13B3985">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 15:05:04 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4171240-D106-792E-F071-86BDD9EA3348" referredColumn="5178DE8E-D9C2-84D5-E1C7-BC8340C34910"/>
+</associations>
+</Column>
+<Column name="Sales_Order_ID" id="ABE3B734-D8A2-99CC-BBC4-0B3179E60ECE">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 15:24:54 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="836D95E4-66FF-F81E-CC62-61F0AD8F70E8" referredColumn="37F5A1FB-7786-53D6-C798-FE2D8D86DE6D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21B823F9-172B-8D12-7758-6A1C84C8ADEA" name="Internet_Order_details_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:59:18 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="235F10A2-4EEC-EF69-C95B-52418C702C06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31CF04FF-8E13-1D31-11EA-762F19474D8B" name="IOD__UN">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 09:19:42 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE3B734-D8A2-99CC-BBC4-0B3179E60ECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53B7B6CF-1EF9-0EB7-BF91-333F46FF8AD8" name="IOD_CUST_FK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 15:21:24 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C38032-B5DA-2C92-DD6E-3D96D13B3985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A625D31-D04C-3780-7E11-F0EF0B923730" name="IOD_SO_FK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-04 08:57:27 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE3B734-D8A2-99CC-BBC4-0B3179E60ECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79AF998F-F95A-5F37-3F79-AA2AC6C95504" name="Sales_Order_Line_Attributes">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:45:39 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>SOLA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sales_Order_Line_Attributes_ID" id="8E033CF6-81D3-887C-3BE9-00C2CDB4B17A">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:46:31 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<abbreviation>SOLAID</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SOLA_SOLAID</notNullConstraintName>
+</Column>
+<Column name="Attribute_ID" id="73135747-ED87-BB40-C6D6-F2B12B25069B">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:47:52 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="259BA92C-C6B2-EF33-8247-331E0E9AE85E" referredColumn="FB861DEC-EB92-52D1-D8BE-979CE2A3A8F0"/>
+</associations>
+</Column>
+<Column name="Sales_Order_Line_ID" id="037B545E-35A3-9631-F601-CA28E0426456">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:49:18 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CF07530-35AA-AF80-2BEC-41F94EC45C5C" referredColumn="8C6BC071-9174-7EF2-F6B1-EFAEDCFD01CF"/>
+</associations>
+</Column>
+<Column name="Product_Attribute_ID" id="FA514422-78A4-C978-5035-232D165033C6">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:49:18 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA19D0FF-4F46-4A7D-B7A4-8E312B5E4912" referredColumn="D3EDE6CB-E63C-80EA-C38F-964C8B5A1CCF"/>
+</associations>
+</Column>
+<Column name="Created_Date" id="07830D26-1D55-C9C7-D75B-5801C9AD7513">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-04 11:59:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="80AFB6F3-F442-0856-786F-12EA46764931">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-04 11:59:45 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7EFC2BA-8F3A-6518-EFB2-9A0A009F452C" name="Sales_Order_Line_Attributes_PK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:46:31 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E033CF6-81D3-887C-3BE9-00C2CDB4B17A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F652C29-A4CF-02A0-0D32-BC5ED12956E6" name="SOLA_ATTR_FK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:47:52 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73135747-ED87-BB40-C6D6-F2B12B25069B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="355C2139-03D5-C5B8-D005-F7E28E68DAD3" name="SOLA_PA_FK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:49:18 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA514422-78A4-C978-5035-232D165033C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE903361-563F-257F-2855-004DBD9E517D" name="SOLA_SOL_FK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:49:18 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="037B545E-35A3-9631-F601-CA28E0426456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

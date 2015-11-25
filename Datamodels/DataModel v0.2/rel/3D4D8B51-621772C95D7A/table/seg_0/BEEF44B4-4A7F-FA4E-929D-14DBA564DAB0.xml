@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEEF44B4-4A7F-FA4E-929D-14DBA564DAB0" name="Product_Attributes">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:34:04 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<abbreviation>PA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_Attribute_ID" id="D3EDE6CB-E63C-80EA-C38F-964C8B5A1CCF">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:34:59 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_ID" id="7322BBC7-0577-774F-EB82-B8CED25DCF8C">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:23:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42C0DEAF-33D1-F56B-E6F8-57C04CF24EA0" referredColumn="B980EF82-923B-E1BE-1735-06D651CE2621"/>
+</associations>
+</Column>
+<Column name="Attribute_ID" id="56AC9CF1-8B2E-DC55-A2A2-200CAECDA79D">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:27:10 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19E04DEF-16B5-F014-F0E7-880A73799021" referredColumn="FB861DEC-EB92-52D1-D8BE-979CE2A3A8F0"/>
+</associations>
+</Column>
+<Column name="Created_Date" id="9A90AA6C-91D4-DE56-001F-1CE6A2D07E76">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:56 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="F100CCB7-137F-A841-D9F2-95D5592C74B2">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:56 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB63B7D2-D004-228A-537E-D6517506828B" name="Product_Attributes_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:34:59 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3EDE6CB-E63C-80EA-C38F-964C8B5A1CCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="922EC03F-FEB9-4747-C81B-C75C29FE033E" name="PA_Products_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 12:23:01 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7322BBC7-0577-774F-EB82-B8CED25DCF8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E25DD5AF-E263-F9AC-A282-E79A9EA4A651" name="PA_ATTR_FK">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:27:53 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56AC9CF1-8B2E-DC55-A2A2-200CAECDA79D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

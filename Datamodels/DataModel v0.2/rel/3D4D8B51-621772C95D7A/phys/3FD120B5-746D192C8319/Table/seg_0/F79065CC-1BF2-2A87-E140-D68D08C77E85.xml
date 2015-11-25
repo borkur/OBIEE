@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Country" directorySegmentName="seg_0" id="F79065CC-1BF2-2A87-E140-D68D08C77E85">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:56:18 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Total_Area" id="02369607-F0BF-AF28-141F-716EE4260531">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Capital" id="33D1143C-7E7A-BC8B-FA26-F3688F864EFA">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Country_Code" id="5924CD9A-C00B-3B26-88D4-9E7B05AE0386">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Country_ID" id="62099735-4810-3776-6D2A-559A2C7E421B">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Population" id="6D29AF10-E81E-06AF-F1C0-4C9E6F44ED58">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Curency_code" id="7B7D116D-3CA6-041B-DB79-C09694619092">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CCTLD" id="BD3443F5-3225-D754-8585-2FDF3DA3A75F">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:59:41 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Lang_Code" id="C712DDE5-0F6F-727B-745A-1CA058239E62">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Currency_Name" id="D87137DE-982F-A4E5-9DD5-16272C5FB35C">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Lang_Name" id="FC3721B0-FC27-B882-4A6B-91D99561A8F8">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Country_PK" id="45DCF3D7-4DAA-1230-D51C-E25B89B8E4F7">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-08 13:57:30 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

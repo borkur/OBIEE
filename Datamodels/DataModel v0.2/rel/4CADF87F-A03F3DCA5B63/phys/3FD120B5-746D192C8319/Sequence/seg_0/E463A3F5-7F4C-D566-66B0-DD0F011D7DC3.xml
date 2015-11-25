@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="Orders_Line_Att_key_seq" directorySegmentName="seg_0" id="E463A3F5-7F4C-D566-66B0-DD0F011D7DC3">
+<createdBy>Adam</createdBy>
+<createdTime>2015-06-10 13:08:32 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</SequenceOraclev10g>

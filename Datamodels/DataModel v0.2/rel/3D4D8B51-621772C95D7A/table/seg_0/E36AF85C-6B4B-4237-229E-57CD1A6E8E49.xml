@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E36AF85C-6B4B-4237-229E-57CD1A6E8E49" name="Outlets">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:26:57 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Outlet_ID" id="A7BFA1C3-718A-72D6-0592-B9A1F766C5F3">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:27:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address_ID" id="FD8237E9-2F76-B4DF-B043-1296F3D82205">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:57:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5756FDC5-23B6-6084-39AA-0A3B0D8BE724" referredColumn="A3B62745-B463-A397-F3C2-0511E9BD5020"/>
+</associations>
+</Column>
+<Column name="Outlet_Name" id="EAE5D527-F6B7-EE68-A7B4-9D20C0A3EC71">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:32:17 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_Staff_ID" id="B6A42AB1-4B71-7D5C-3E60-7200AFA2AEEE">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:32:17 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD945CA6-1CB2-8C3F-DA5C-F4745EE1646C" referredColumn="1C8D9DD9-2126-8EF0-06A7-1515C54A4370"/>
+</associations>
+</Column>
+<Column name="Created_Date" id="4EE0B6F2-4242-9426-6140-C9475EFFDF07">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Updated_Date" id="3EE95AE1-A0EE-C95E-2136-2A15630E94D5">
+<createdBy>hannahpatrick</createdBy>
+<createdTime>2015-05-21 14:52:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61866E29-216A-B862-E2D8-735171757DDA" name="Outlets_PK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 11:27:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7BFA1C3-718A-72D6-0592-B9A1F766C5F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1A3CC04-54EE-9A6B-65DA-4D39BBBB049A" name="Outlets_Addresses_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 13:57:51 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD8237E9-2F76-B4DF-B043-1296F3D82205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C4C420A-A6A1-DCA3-4DC6-452A8A3D66BA" name="Outlets_Staff_FK">
+<createdBy>borkur</createdBy>
+<createdTime>2015-05-11 15:33:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6A42AB1-4B71-7D5C-3E60-7200AFA2AEEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

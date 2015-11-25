@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Attributes" directorySegmentName="seg_0" id="3A978844-7136-7B6D-8732-A62A28C23390">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:16:47 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Attribute_Price_Modifier" id="05D0A8BB-DE81-7652-8799-C79618307428">
+<createdBy>Adam</createdBy>
+<createdTime>2015-09-28 13:09:25 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_Name" id="4B6307B0-0AE6-C1CA-3E48-EF5D060638CB">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:19:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_Type_ID" id="905B30ED-9891-1E73-7269-F5311040C6CB">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:19:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Created_Date" id="BAAFE871-96C2-32D3-A9E2-A1D71CA44F01">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Updated_Date" id="DC14D15C-8F2A-9EDD-F5AC-2CFB327CEF21">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Attribute_ID" id="FB861DEC-EB92-52D1-D8BE-979CE2A3A8F0">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:19:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ATTR_Attribute_Types_FK" id="7B6D5AE9-44EA-988F-D4FA-91D36F5F2F33">
+<createdBy>edelweiss.kammermann</createdBy>
+<createdTime>2015-06-09 12:30:07 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Attributes_PK" id="AB882B34-50DF-4D49-2DA4-1602EB6CD8CF">
+<createdBy>Tom</createdBy>
+<createdTime>2015-06-03 11:19:05 UTC</createdTime>
+<ownerDesignName>DataModel v0.2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

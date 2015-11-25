@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="5823D581-261B-B5AD-8076-560ECFEED7BE" name="Dim_Staff" seqName="seg_0"/>
+   <object objectType="Table" objectID="606D429B-4D51-3F0F-CFBC-E0582FF25684" name="Dim_Attributes" seqName="seg_0"/>
+   <object objectType="Table" objectID="770959F5-4E98-BA1E-5BB6-90238CE9218C" name="Dim_Currency" seqName="seg_0"/>
+   <object objectType="Table" objectID="8E2359D0-DB87-2F08-67C1-6E907294A7DF" name="Dim_Outlets" seqName="seg_0"/>
+   <object objectType="Table" objectID="A7290789-C52E-6098-623C-0817AF4FAA51" name="Dim_Customers" seqName="seg_0"/>
+   <object objectType="Table" objectID="AC3918D5-474D-02A0-DAEB-D6F82A85E23B" name="Dim_Address" seqName="seg_0"/>
+   <object objectType="Table" objectID="BEE50796-D3C1-02B1-57A9-50421BCBEC46" name="Dim_Products" seqName="seg_0"/>
+   <object objectType="Table" objectID="BEEFC4DD-F35C-AD80-3DC1-96FFB59E2DAA" name="Fact_Order_Line" seqName="seg_0"/>
+   <object objectType="Table" objectID="D1E96C56-F4AD-D372-07DD-F86F85697AF7" name="Dim_Supplier" seqName="seg_0"/>
+   <object objectType="Table" objectID="E09ED3DE-B7F5-7548-6F7A-A5B15D8DE2E4" name="Fact_Order_Line_Att" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="FFE87D97-4B3E-27ED-0CE9-72EBF894FB98" name="Addresses_key_seq" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="6927F680-84AC-7F46-163C-D67FABB54728" name="Attributes_key_seq" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="3DE5ED47-95FC-EC4C-F634-92B1DA65FB1E" name="Currency_key_seq" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="2069C693-24B4-DB75-07CB-D2EABE9164D2" name="Customers_key_seq" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="E463A3F5-7F4C-D566-66B0-DD0F011D7DC3" name="Orders_Line_Att_key_seq" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="D27E442F-FF41-4CFB-8F46-73C58A19479C" name="Orders_Line_key_seq" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="3F4B87A5-09C5-DB2A-F61F-27FDF14480B3" name="Outlets_key_seq" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="073870A7-E1AD-611B-9CDD-CE63A6C7EEE4" name="Products_key_seq" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="9ED4325F-6894-C870-7DE3-BE70BC4E13D6" name="Staffs_key_seq" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>
